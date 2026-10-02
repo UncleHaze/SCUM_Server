@@ -10,6 +10,7 @@
 __pycache__/
 *.pyc
 node_modules/
+tools/bin/**/*.exe
 *.pak
 mod_staging/**/*.json
 EconomyOverride.proposed.json
