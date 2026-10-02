@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PhazeOut SCUM server (config repo)
 
 **GitHub:** [UncleHaze/SCUM_Server](https://github.com/UncleHaze/SCUM_Server) — use this repo for **Cursor Cloud Agents** / phone (`cursor.com/agents`) so mod and config work syncs without Remote Control to your PC.
