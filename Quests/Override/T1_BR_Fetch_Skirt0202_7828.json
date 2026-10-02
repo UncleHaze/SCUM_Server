@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Barber",
+	"Tier": 1,
+	"Title": "Stall resupply: Skirt #7828",
+	"Description": "Stall resupply in the Coastal road area. Deliver to the barber\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 17,
+			"Skills": [
+				{
+					"Skill": "Awareness",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back Skirt",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Skirt_02_02"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 2,
+	"Title": "Armory intake: Gas Mask",
+	"Description": "Armory intake in the Z2 outskirts area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1158,
+			"Fame": 62,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver Gas Mask",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Gas_Mask_01"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Deliver Police Cap",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Police_Cap_02"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

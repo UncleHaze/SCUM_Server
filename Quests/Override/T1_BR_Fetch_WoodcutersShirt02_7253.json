@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Barber",
+	"Tier": 1,
+	"Title": "Clothier order: Woodcuters Shirt",
+	"Description": "Clothier order in the Z2 outskirts area. Deliver to the barber\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 20,
+			"Skills": [
+				{
+					"Skill": "Awareness",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure Woodcuters Shirt",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Woodcuters_Shirt_02"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

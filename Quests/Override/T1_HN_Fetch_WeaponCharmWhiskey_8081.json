@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 1,
+	"Title": "Hunting lodge stock: Weapon Charm Whiskey",
+	"Description": "Hunting lodge stock in the Z2 outskirts area. Deliver to the banker\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 17,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver Weapon Charm Whiskey",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"WeaponCharm_Whiskey"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "GeneralGoods",
+	"Tier": 1,
+	"Title": "General store run: Egg",
+	"Description": "General store run in the Highland pass area. Deliver to the generalgoods\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 17,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver 2 Egg",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Egg"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

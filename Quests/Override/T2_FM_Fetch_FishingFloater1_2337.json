@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Fisherman",
+	"Tier": 2,
+	"Title": "Net & tackle run: Fishing Floater1",
+	"Description": "Net & tackle run in the Forest trail area. Deliver to the fisherman\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 64,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Collect Fishing Floater1",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"FishingFloater1"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Collect Amur Fillet",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Amur_Fillet"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

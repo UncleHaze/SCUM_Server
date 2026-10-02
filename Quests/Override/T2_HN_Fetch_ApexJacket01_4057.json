@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 2,
+	"Title": "Hunting lodge stock: Apex Jacket",
+	"Description": "Hunting lodge stock in the North ridge area. Deliver to the banker\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1595,
+			"Fame": 87,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Source Apex Jacket",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Apex_Jacket_01"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Source Explosive Arrow",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Explosive_Arrow"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

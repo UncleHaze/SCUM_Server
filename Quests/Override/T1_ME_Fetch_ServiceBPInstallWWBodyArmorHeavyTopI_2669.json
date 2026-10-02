@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 1,
+	"Title": "Field repair kit: Vehicle install kit (Wolfs Wagen ... #2669",
+	"Description": "Field repair kit in the Forest trail area. Deliver to the mechanic\u2014exact items only. Service kits are workshop items used on vehicles to install or repair a specific part (not generic loot).",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 23,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hand over Vehicle install kit (Wolfs Wagen Body Armor Heavy Top)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Install_WW_Body_ArmorHeavy_Top_Item"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 3,
+	"Title": "Armory intake: Stabproof Vest",
+	"Description": "Armory intake in the Highland pass area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 3600,
+			"Fame": 137,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Source Stabproof Vest",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Stabproof_Vest_01_02"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Source Weapon Suppressor MK18",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"WeaponSuppressor_MK18"
+					],
+					"RequiredNum": 5
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Source Military Pants",
+			"SequenceIndex": 2,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"MilitaryPants_02"
+					],
+					"RequiredNum": 5
+				}
+			]
+		}
+	]
+}

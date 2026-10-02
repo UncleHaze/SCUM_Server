@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Barber",
+	"Tier": 2,
+	"Title": "Tailor delivery: TwD Daredevil Pants",
+	"Description": "Tailor delivery in the Z2 outskirts area. Deliver to the barber\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1013,
+			"Fame": 75,
+			"Skills": [
+				{
+					"Skill": "Awareness",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure 3 TwD Daredevil Pants",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"TwD_Daredevil_Pants_01"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Procure 3 Vest",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Vest_02"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

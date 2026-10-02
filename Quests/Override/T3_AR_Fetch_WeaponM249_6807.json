@@ -1,0 +1,69 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 3,
+	"Title": "Security stock: Weapon M249",
+	"Description": "Security stock in the North ridge area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 3600,
+			"Fame": 161,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Weapon M249",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Weapon_M249"
+					],
+					"RequiredNum": 6
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Recover Tactical Handgun Holster",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Tactical_Handgun_Holster_03"
+					],
+					"RequiredNum": 5
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Recover Two-Handed Metal Baseball Bat",
+			"SequenceIndex": 2,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"2H_Metal_Baseball_Bat"
+					],
+					"RequiredNum": 6
+				}
+			]
+		}
+	]
+}

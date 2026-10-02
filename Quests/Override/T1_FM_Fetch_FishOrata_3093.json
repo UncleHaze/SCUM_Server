@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Fisherman",
+	"Tier": 1,
+	"Title": "Coastal resupply: Fish Orata",
+	"Description": "Coastal resupply in the Industrial yard area. Deliver to the fisherman\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 24,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Fish Orata",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Fish_Orata"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

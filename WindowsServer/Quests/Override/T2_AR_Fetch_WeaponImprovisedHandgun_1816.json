@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 2,
+	"Title": "Depot order: Weapon Improvised Handgun",
+	"Description": "Depot order in the Forest trail area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 678,
+			"Fame": 60,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure 3 Weapon Improvised Handgun",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Weapon_Improvised_Handgun"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Procure 4 Military Boonie Hat",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Military_Boonie_Hat_05"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

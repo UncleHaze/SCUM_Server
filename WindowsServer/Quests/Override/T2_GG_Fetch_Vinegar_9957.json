@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "GeneralGoods",
+	"Tier": 2,
+	"Title": "Shelf refill: Vinegar",
+	"Description": "Shelf refill in the Coastal road area. Deliver to the generalgoods\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 58,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure 2 Vinegar",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Vinegar"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Procure 2 CannedSeafoodMix",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"CannedSeafoodMix"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

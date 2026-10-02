@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 2,
+	"Title": "Service bay order: Vehicle install kit (Wheel R16)",
+	"Description": "Service bay order in the Highland pass area. Deliver to the mechanic\u2014exact items only. Service kits are workshop items used on vehicles to install or repair a specific part (not generic loot).",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 91,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Vehicle install kit (Wheel R16)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Install_Wheel_255_55_R16_Item"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Recover Service Blueprint Purchase Blueprint Laika Engine Engine Control Unit",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Purchase_BP_Laika_Engine_ICU"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

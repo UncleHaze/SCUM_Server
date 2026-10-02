@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Fisherman",
+	"Tier": 2,
+	"Title": "Coastal resupply: PremiumBoiliesPack",
+	"Description": "Coastal resupply in the Forest trail area. Deliver to the fisherman\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 67,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover 4 PremiumBoiliesPack",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"PremiumBoiliesPack"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Recover 4 Catfish Fillet",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Catfish_Fillet"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

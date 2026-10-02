@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "GeneralGoods",
+	"Tier": 3,
+	"Title": "General store run: Fuse",
+	"Description": "General store run in the Z2 outskirts area. Deliver to the generalgoods\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1200,
+			"Fame": 153,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back Fuse",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Fuse_200A"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Bring back Two-Handed Baseball Bat",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"2H_Baseball_Bat"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

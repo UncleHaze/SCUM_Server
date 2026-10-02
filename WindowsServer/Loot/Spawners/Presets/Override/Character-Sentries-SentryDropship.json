@@ -1,0 +1,58 @@
+{
+	"Items": [
+		{
+			"Rarity": "VeryRare",
+			"Id": "KeyCard"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "KeyCardApex"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "C4_Keypad"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "C4_CircuitBoard"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Laser_Detonator"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Cal_40x46"
+		},
+		{
+			"Rarity": "VeryRare",
+			"Id": "TearGasGrenade"
+		}
+	],
+	"FixedItems": [
+		"BCULock_Item",
+		"Sentry_Aiming_Kit",
+		"Flashbang",
+		"Flashbang",
+		"Cal_7_62x39mm_AP",
+		"Cal_7_62x39mm_AP",
+		"Cal_7_62x39mm_AP"
+	],
+	"QuantityMin": 1,
+	"QuantityMax": 1,
+	"AllowDuplicates": false,
+	"ShouldFilterItemsByZone": true,
+	"ShouldApplyLocationSpecificProbabilityModifier": true,
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 20,
+	"RandomDamage": 10,
+	"InitialUsage": 0,
+	"RandomUsage": 0,
+	"InitialStack": 0,
+	"RandomStack": 0,
+	"PostSpawnActions": [
+		"KillboxKeycard_Sentry",
+		"SetAmmoAmount_BigStash",
+		"ApexKeycard_Sentry"
+	]
+}

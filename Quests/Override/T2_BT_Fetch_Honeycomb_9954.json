@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 2,
+	"Title": "Cellar run: Honeycomb",
+	"Description": "Cellar run in the North ridge area. Deliver to the bartender\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 59,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back Honeycomb",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Honeycomb"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Bring back Psilocybe Cyanescens",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Psilocybe_Cyanescens"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

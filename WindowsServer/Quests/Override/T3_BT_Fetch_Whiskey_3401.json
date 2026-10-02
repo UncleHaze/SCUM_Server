@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 3,
+	"Title": "Taproom supply: Whiskey",
+	"Description": "Taproom supply in the Coastal road area. Deliver to the bartender\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1200,
+			"Fame": 158,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver 6 Whiskey",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Whiskey"
+					],
+					"RequiredNum": 6
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Deliver 6 Amanita Muscaria",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Amanita_Muscaria"
+					],
+					"RequiredNum": 6
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 1,
+	"Title": "Hunting lodge stock: Leather Backpack",
+	"Description": "Hunting lodge stock in the Forest trail area. Deliver to the banker\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 15,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hand over Leather Backpack",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Leather_Backpack_03"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 2,
+	"Title": "Yard parts run: Dirtbike Front Shield",
+	"Description": "Yard parts run in the Industrial yard area. Deliver to the mechanic\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1891,
+			"Fame": 74,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Collect 2 Dirtbike Front Shield",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Dirtbike_Front_Shield_Item"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Collect 3 Cruiser Wheel R17",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Cruiser_Wheel_155_66_R17"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

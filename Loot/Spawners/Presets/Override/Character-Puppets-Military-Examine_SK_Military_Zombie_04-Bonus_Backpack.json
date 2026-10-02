@@ -1,0 +1,24 @@
+{
+	"Items": [
+		{
+			"Rarity": "VeryRare",
+			"Id": "Military_Backpack_01_03"
+		}
+	],
+	"QuantityMin": 1,
+	"QuantityMax": 1,
+	"AllowDuplicates": false,
+	"ShouldFilterItemsByZone": false,
+	"ShouldApplyLocationSpecificProbabilityModifier": false,
+	"ShouldApplyLocationSpecificDamageModifier": false,
+	"InitialDamage": 70,
+	"RandomDamage": 12,
+	"InitialUsage": 70,
+	"RandomUsage": 12,
+	"InitialStack": 0,
+	"RandomStack": 0,
+	"PostSpawnActions": [
+		"SetClothesDirtiness_DeadPuppets"
+	],
+	"Probability": 5.0
+}

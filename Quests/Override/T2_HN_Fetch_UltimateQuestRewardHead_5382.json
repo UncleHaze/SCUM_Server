@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 2,
+	"Title": "Trail camp supply: Ultimate Quest Reward Head",
+	"Description": "Trail camp supply in the Forest trail area. Deliver to the banker\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 2200,
+			"Fame": 86,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back Ultimate Quest Reward Head",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Ultimate_QuestReward_Head"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Bring back Bear Front Paws Mutant",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Bear_Front_Paws_Mutant"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

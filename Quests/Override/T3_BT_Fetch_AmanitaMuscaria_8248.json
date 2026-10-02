@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 3,
+	"Title": "Cellar run: Amanita Muscaria",
+	"Description": "Cellar run in the Forest trail area. Deliver to the bartender\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1200,
+			"Fame": 162,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver Amanita Muscaria",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Amanita_Muscaria"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Deliver Honeycomb",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Honeycomb"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

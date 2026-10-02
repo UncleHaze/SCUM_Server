@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 2,
+	"Title": "Range resupply: Military Mask",
+	"Description": "Range resupply in the North ridge area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 77,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hand over 3 Military Mask",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Military_Mask_06"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Hand over 2 Cal 62x54mmR AP",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Cal_7_62x54mmR_AP"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

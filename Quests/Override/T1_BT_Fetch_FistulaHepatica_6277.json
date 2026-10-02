@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 1,
+	"Title": "Cellar run: Fistula Hepatica",
+	"Description": "Cellar run in the Z2 outskirts area. Deliver to the bartender\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 21,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back Fistula Hepatica",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Fistula_Hepatica"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

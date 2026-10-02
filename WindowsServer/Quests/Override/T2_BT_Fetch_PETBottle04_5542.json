@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 2,
+	"Title": "Bar back order: PETBottle04",
+	"Description": "Bar back order in the North ridge area. Deliver to the bartender\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 69,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver 2 PETBottle04",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"PETBottle04"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Deliver 3 Beer",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Beer"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

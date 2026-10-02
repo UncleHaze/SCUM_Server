@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Barber",
+	"Tier": 2,
+	"Title": "Wardrobe stock: HH Shoes",
+	"Description": "Wardrobe stock in the Z2 outskirts area. Deliver to the barber\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1248,
+			"Fame": 76,
+			"Skills": [
+				{
+					"Skill": "Awareness",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hand over 4 HH Shoes",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"HH_Shoes_02_01"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Hand over 2 TwD Rastaman Pants",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"TwD_Rastaman_Pants_01"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

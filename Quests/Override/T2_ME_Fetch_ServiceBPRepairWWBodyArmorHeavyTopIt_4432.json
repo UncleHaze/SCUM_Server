@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 2,
+	"Title": "Garage contract: Vehicle repair kit (Wolfs Wagen B...",
+	"Description": "Garage contract in the Industrial yard area. Deliver to the mechanic\u2014exact items only. Service kits are workshop items used on vehicles to install or repair a specific part (not generic loot).",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 68,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure Vehicle repair kit (Wolfs Wagen Body Armor Heavy Top)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Repair_WW_Body_ArmorHeavy_Top_Item"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Procure Vehicle install kit (Laika Door Armor Light Front Left)",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Install_Laika_Door_ArmorLight_FrontLeft_Item"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

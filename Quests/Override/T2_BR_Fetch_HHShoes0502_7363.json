@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Barber",
+	"Tier": 2,
+	"Title": "Wardrobe stock: HH Shoes",
+	"Description": "Wardrobe stock in the Forest trail area. Deliver to the barber\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 78,
+			"Skills": [
+				{
+					"Skill": "Awareness",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hand over HH Shoes",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"HH_Shoes_05_02"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Hand over Tracksuit Pants",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Tracksuit_Pants_01_01"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

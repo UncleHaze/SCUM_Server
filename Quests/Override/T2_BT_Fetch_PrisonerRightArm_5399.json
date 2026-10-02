@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 2,
+	"Title": "Taproom supply: Prisoner Right Arm #5399",
+	"Description": "Taproom supply in the Industrial yard area. Deliver to the bartender\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 66,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Collect Prisoner Right Arm",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Prisoner_Right_Arm"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Collect Prisoner Right Foot",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Prisoner_Right_Foot"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

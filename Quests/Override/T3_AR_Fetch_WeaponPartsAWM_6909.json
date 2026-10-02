@@ -1,0 +1,54 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 3,
+	"Title": "Armory intake: Weapon Parts AWM",
+	"Description": "Armory intake in the Forest trail area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 3304,
+			"Fame": 148,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 22000
+				}
+			],
+			"CurrencyGold": 1
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure Weapon Parts AWM",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Weapon_Parts_AWM"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Procure Gas Mask",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Gas_Mask_01"
+					],
+					"RequiredNum": 6
+				}
+			]
+		}
+	]
+}

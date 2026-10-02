@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Barber",
+	"Tier": 2,
+	"Title": "Tailor delivery: Qipao Dress",
+	"Description": "Tailor delivery in the Z2 outskirts area. Deliver to the barber\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 898,
+			"Fame": 72,
+			"Skills": [
+				{
+					"Skill": "Awareness",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Collect Qipao Dress",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Qipao_Dress_05"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Collect Work Jacket",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Work_Jacket_01"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

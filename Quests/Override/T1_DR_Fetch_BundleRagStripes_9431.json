@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 1,
+	"Title": "Emergency cache: Bundle Rag Stripes",
+	"Description": "Emergency cache in the Z2 outskirts area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 20,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Bundle Rag Stripes",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Bundle_Rag_Stripes"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

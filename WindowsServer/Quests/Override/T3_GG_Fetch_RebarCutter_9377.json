@@ -1,0 +1,69 @@
+{
+	"AssociatedNPC": "GeneralGoods",
+	"Tier": 3,
+	"Title": "General store run: Rebar Cutter",
+	"Description": "General store run in the Z2 outskirts area. Deliver to the generalgoods\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 3600,
+			"Fame": 154,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Source 5 Rebar Cutter",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Rebar_Cutter"
+					],
+					"RequiredNum": 5
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Source 5 Saw",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Saw"
+					],
+					"RequiredNum": 5
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Source 3 Beenie",
+			"SequenceIndex": 2,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Beenie_06"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

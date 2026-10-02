@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 2,
+	"Title": "Infirmary order: Emergency bandage",
+	"Description": "Infirmary order in the Forest trail area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 76,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Source Emergency bandage",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Emergency_bandage"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Source Medical Glove",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Medical_Glove_01"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

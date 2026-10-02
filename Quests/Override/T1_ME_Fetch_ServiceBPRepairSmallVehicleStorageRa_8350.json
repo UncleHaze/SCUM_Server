@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 1,
+	"Title": "Garage contract: Vehicle repair kit (Small Vehicle...",
+	"Description": "Garage contract in the North ridge area. Deliver to the mechanic\u2014exact items only. Service kits are workshop items used on vehicles to install or repair a specific part (not generic loot).",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 16,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Collect Vehicle repair kit (Small Vehicle Storage Rack)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Repair_Small_Vehicle_StorageRack"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

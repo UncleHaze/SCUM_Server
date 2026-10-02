@@ -1,0 +1,69 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 3,
+	"Title": "Field repair kit: Rager DoorTrunk ArmorLight",
+	"Description": "Field repair kit in the North ridge area. Deliver to the mechanic\u2014exact items only. Service kits are workshop items used on vehicles to install or repair a specific part (not generic loot).",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 2076,
+			"Fame": 165,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Collect 3 Rager DoorTrunk ArmorLight",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Rager_DoorTrunk_ArmorLight_Item"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Collect 5 Vehicle repair kit (Wolfs Wagen Seat FrontLeft)",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Repair_WW_Seat_FrontLeft_Item"
+					],
+					"RequiredNum": 5
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Collect 3 Laika Bumper Back",
+			"SequenceIndex": 2,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Laika_Bumper_Back_Item"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

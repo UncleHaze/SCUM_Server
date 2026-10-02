@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 2,
+	"Title": "Depot order: Beret",
+	"Description": "Depot order in the Industrial yard area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 842,
+			"Fame": 61,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hand over Beret",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Beret_04"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Hand over Police Gloves",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Police_Gloves_01"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

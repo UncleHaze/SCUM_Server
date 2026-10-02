@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Barber",
+	"Tier": 1,
+	"Title": "Stall resupply: Baseball Cap",
+	"Description": "Stall resupply in the Highland pass area. Deliver to the barber\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 23,
+			"Skills": [
+				{
+					"Skill": "Awareness",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure Baseball Cap",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Baseball_Cap_07"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

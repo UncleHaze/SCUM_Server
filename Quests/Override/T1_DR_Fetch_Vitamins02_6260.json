@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 1,
+	"Title": "Infirmary order: Vitamins #6260",
+	"Description": "Infirmary order in the North ridge area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 16,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Vitamins",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Vitamins_02"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

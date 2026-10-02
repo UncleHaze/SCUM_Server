@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Fisherman",
+	"Tier": 1,
+	"Title": "Net & tackle run: Fishing Floater",
+	"Description": "Net & tackle run in the Coastal road area. Deliver to the fisherman\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 22,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back Fishing Floater",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"FishingFloater"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

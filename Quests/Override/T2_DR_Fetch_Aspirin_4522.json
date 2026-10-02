@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 2,
+	"Title": "Infirmary order: Aspirin",
+	"Description": "Infirmary order in the Forest trail area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 962,
+			"Fame": 79,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver Aspirin",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Aspirin"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Deliver Medical Glove",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Medical_Glove_01"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

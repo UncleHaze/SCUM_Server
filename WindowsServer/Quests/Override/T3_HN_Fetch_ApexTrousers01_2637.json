@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 3,
+	"Title": "Outfitter order: Apex Trousers",
+	"Description": "Outfitter order in the Coastal road area. Deliver to the banker\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 2698,
+			"Fame": 133,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back 4 Apex Trousers",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Apex_Trousers_01"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Bring back 4 Ultimate QuestReward Boots",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Ultimate_QuestReward_Boots"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

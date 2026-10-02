@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 2,
+	"Title": "Emergency cache: Blueprint BCU Upgrade Service",
+	"Description": "Emergency cache in the North ridge area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 64,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure Blueprint BCU Upgrade Service",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"BP_BCUUpgradeService"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Procure Hemostatic Dressing",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Hemostatic_Dressing"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

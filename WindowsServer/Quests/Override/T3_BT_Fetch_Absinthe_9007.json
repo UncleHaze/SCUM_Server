@@ -1,0 +1,70 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 3,
+	"Title": "Cellar run: Absinthe",
+	"Description": "Cellar run in the Z2 outskirts area. Deliver to the bartender\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1488,
+			"Fame": 156,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 22000
+				}
+			],
+			"CurrencyGold": 1
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back 3 Absinthe",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Absinthe"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Bring back 4 Wine",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Wine"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Bring back 6 PETBottle03",
+			"SequenceIndex": 2,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"PETBottle03"
+					],
+					"RequiredNum": 6
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 1,
+	"Title": "Trail camp supply: Cal 30 06 Crafted",
+	"Description": "Trail camp supply in the Forest trail area. Deliver to the banker\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 18,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver Cal 30 06 Crafted",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Cal_30-06_Crafted"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

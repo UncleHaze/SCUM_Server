@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 1,
+	"Title": "Range resupply: Chicken Drumstick",
+	"Description": "Range resupply in the North ridge area. Deliver to the banker\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 20,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Chicken Drumstick",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ChickenDrumstick"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

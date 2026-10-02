@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 1,
+	"Title": "Range resupply: Improvised Bow",
+	"Description": "Range resupply in the Z2 outskirts area. Deliver to the banker\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 22,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hand over Improvised Bow",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Improvised_Bow"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

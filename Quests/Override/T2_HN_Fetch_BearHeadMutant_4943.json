@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 2,
+	"Title": "Range resupply: Bear Head Mutant",
+	"Description": "Range resupply in the North ridge area. Deliver to the banker\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1871,
+			"Fame": 74,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver Bear Head Mutant",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Bear_Head_Mutant"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Deliver Weapon Charm Croc",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"WeaponCharm_Croc"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

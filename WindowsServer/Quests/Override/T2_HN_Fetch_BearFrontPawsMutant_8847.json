@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 2,
+	"Title": "Hunting lodge stock: Bear Front Paws Mutant",
+	"Description": "Hunting lodge stock in the Z2 outskirts area. Deliver to the banker\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 2090,
+			"Fame": 68,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure 2 Bear Front Paws Mutant",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Bear_Front_Paws_Mutant"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Procure 4 Compound Bow",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Compound_Bow"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 2,
+	"Title": "Workshop restock: Service Blueprint Purchase Bluepr...",
+	"Description": "Workshop restock in the Industrial yard area. Deliver to the mechanic\u2014exact items only. Service kits are workshop items used on vehicles to install or repair a specific part (not generic loot).",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1341,
+			"Fame": 85,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Source Service Blueprint Purchase Blueprint Laika Engine Engine Control Unit",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Purchase_BP_Laika_Engine_ICU"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Source Cruiser Fender Front",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Cruiser_Fender_Front_Item"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Barber",
+	"Tier": 2,
+	"Title": "Stall resupply: Christmas Pants",
+	"Description": "Stall resupply in the Z2 outskirts area. Deliver to the barber\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 650,
+			"Fame": 59,
+			"Skills": [
+				{
+					"Skill": "Awareness",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back 3 Christmas Pants",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Christmas_Pants_01"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Bring back 2 Sexy Jeans Shorts",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Sexy_Jeans_Shorts_04"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

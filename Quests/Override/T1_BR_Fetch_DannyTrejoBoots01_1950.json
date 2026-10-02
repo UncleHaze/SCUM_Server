@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Barber",
+	"Tier": 1,
+	"Title": "Clothier order: Danny Trejo Boots",
+	"Description": "Clothier order in the North ridge area. Deliver to the barber\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 18,
+			"Skills": [
+				{
+					"Skill": "Awareness",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hand over Danny Trejo Boots",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Danny_Trejo_Boots_01"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

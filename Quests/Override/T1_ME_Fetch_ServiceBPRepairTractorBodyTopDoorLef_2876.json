@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 1,
+	"Title": "Field repair kit: Vehicle repair kit (Tractor Body ...",
+	"Description": "Field repair kit in the Industrial yard area. Deliver to the mechanic\u2014exact items only. Service kits are workshop items used on vehicles to install or repair a specific part (not generic loot).",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 15,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hand over Vehicle repair kit (Tractor Body Top Door Left)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Repair_Tractor_Body_Top_Door_Left_Item"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

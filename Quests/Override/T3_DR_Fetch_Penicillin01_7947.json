@@ -1,0 +1,69 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 3,
+	"Title": "Field medic drop: Penicillin01",
+	"Description": "Field medic drop in the Coastal road area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 3600,
+			"Fame": 147,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back Penicillin01",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Penicillin01"
+					],
+					"RequiredNum": 6
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Bring back Emergency bandage Big",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Emergency_bandage_Big"
+					],
+					"RequiredNum": 5
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Bring back Hemostatic Dressing",
+			"SequenceIndex": 2,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Hemostatic_Dressing"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

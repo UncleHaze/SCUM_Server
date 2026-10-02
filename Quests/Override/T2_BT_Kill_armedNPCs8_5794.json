@@ -1,0 +1,31 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 2,
+	"Title": "Hostile contact (8 armed NPCs)",
+	"Description": "Hostile contact: eliminate 8 armed NPCs for the bartender. Keep it quiet if you can.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1720,
+			"Fame": 90,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hostile contact (8 armed NPCs)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination",
+			"TargetCharacters": [
+				"ArmedNPC"
+			],
+			"Amount": 8
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"AssociatedNPC": "GeneralGoods",
+	"Tier": 3,
+	"Title": "Depot resupply: Hip Flask",
+	"Description": "Depot resupply in the Industrial yard area. Deliver to the generalgoods\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 3600,
+			"Fame": 139,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure Hip Flask",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Hip_Flask"
+					],
+					"RequiredNum": 6
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Procure Chainsaw",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Chainsaw"
+					],
+					"RequiredNum": 4
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Procure Lettuce Seed Bag",
+			"SequenceIndex": 2,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Lettuce_Seed_Bag"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

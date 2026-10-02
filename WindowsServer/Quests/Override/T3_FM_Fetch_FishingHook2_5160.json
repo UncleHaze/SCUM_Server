@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Fisherman",
+	"Tier": 3,
+	"Title": "Pier supply: FishingHook2",
+	"Description": "Pier supply in the Forest trail area. Deliver to the fisherman\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1522,
+			"Fame": 136,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver 3 FishingHook2",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"FishingHook2"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Deliver 6 FishingReel",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"FishingReel"
+					],
+					"RequiredNum": 6
+				}
+			]
+		}
+	]
+}

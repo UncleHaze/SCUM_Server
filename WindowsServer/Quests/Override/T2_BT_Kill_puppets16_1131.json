@@ -1,0 +1,31 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 2,
+	"Title": "Clear the dead (16 puppets)",
+	"Description": "Clear the dead: eliminate 16 puppets for the bartender. Keep it quiet if you can.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 2040,
+			"Fame": 89,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Clear the dead (16 puppets)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination",
+			"TargetCharacters": [
+				"Puppet"
+			],
+			"Amount": 16
+		}
+	]
+}

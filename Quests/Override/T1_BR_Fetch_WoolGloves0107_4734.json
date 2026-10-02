@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Barber",
+	"Tier": 1,
+	"Title": "Wardrobe stock: Wool Gloves",
+	"Description": "Wardrobe stock in the Forest trail area. Deliver to the barber\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 21,
+			"Skills": [
+				{
+					"Skill": "Awareness",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Wool Gloves",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Wool_Gloves_01_07"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

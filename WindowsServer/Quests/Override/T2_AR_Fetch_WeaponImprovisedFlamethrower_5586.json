@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 2,
+	"Title": "Armory intake: Weapon Improvised Flamethrower",
+	"Description": "Armory intake in the Z2 outskirts area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 2200,
+			"Fame": 85,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver 3 Weapon Improvised Flamethrower",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Weapon_Improvised_Flamethrower"
+					],
+					"RequiredNum": 3
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Deliver 3 One-Handed N9 White",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"1H_N9_White"
+					],
+					"RequiredNum": 3
+				}
+			]
+		}
+	]
+}

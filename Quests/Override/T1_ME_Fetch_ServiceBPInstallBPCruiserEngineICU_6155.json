@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 1,
+	"Title": "Roadside recovery: Vehicle install kit (Cruiser Engi...",
+	"Description": "Roadside recovery in the Highland pass area. Deliver to the mechanic\u2014exact items only. Service kits are workshop items used on vehicles to install or repair a specific part (not generic loot).",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 20,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver Vehicle install kit (Cruiser Engine Control Unit)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Install_BP_Cruiser_Engine_ICU"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

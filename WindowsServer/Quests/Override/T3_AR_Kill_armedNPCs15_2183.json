@@ -1,0 +1,31 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 3,
+	"Title": "Raider clear (15 armed NPCs)",
+	"Description": "Raider clear: eliminate 15 armed NPCs for the armorer. Keep it quiet if you can.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 3400,
+			"Fame": 173,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Raider clear (15 armed NPCs)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination",
+			"TargetCharacters": [
+				"ArmedNPC"
+			],
+			"Amount": 15
+		}
+	]
+}

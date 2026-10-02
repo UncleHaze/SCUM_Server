@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 3,
+	"Title": "Triage stock: Penicillin01",
+	"Description": "Triage stock in the Highland pass area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 3600,
+			"Fame": 156,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure Penicillin01",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Penicillin01"
+					],
+					"RequiredNum": 6
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Procure Penicillin01",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Penicillin01"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

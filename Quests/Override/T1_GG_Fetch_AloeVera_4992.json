@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "GeneralGoods",
+	"Tier": 1,
+	"Title": "General store run: Aloe Vera",
+	"Description": "General store run in the Industrial yard area. Deliver to the generalgoods\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 23,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back Aloe Vera",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Aloe_Vera"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 2,
+	"Title": "Service bay order: Cruiser Headlight",
+	"Description": "Service bay order in the Highland pass area. Deliver to the mechanic\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1774,
+			"Fame": 91,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Cruiser Headlight",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Cruiser_Headlight_Item"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Recover Bicycle Wheel",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Bicycle_Wheel_60_622_Item"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

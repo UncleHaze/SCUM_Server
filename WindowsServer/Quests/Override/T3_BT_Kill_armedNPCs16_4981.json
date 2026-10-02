@@ -1,0 +1,31 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 3,
+	"Title": "Armed sweep (16 armed NPCs)",
+	"Description": "Armed sweep: eliminate 16 armed NPCs for the bartender. Keep it quiet if you can.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 3440,
+			"Fame": 172,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Armed sweep (16 armed NPCs)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination",
+			"TargetCharacters": [
+				"ArmedNPC"
+			],
+			"Amount": 16
+		}
+	]
+}

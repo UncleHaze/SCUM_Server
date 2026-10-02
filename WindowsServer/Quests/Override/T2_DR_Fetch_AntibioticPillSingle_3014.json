@@ -1,0 +1,53 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 2,
+	"Title": "Field medic drop: Antibiotic Pill Single",
+	"Description": "Field medic drop in the Z2 outskirts area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 762,
+			"Fame": 79,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver 2 Antibiotic Pill Single",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Antibiotic_Pill_Single"
+					],
+					"RequiredNum": 2
+				}
+			]
+		},
+		{
+			"TrackingCaption": "Deliver 4 Antiparasitics",
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Antiparasitics_02"
+					],
+					"RequiredNum": 4
+				}
+			]
+		}
+	]
+}

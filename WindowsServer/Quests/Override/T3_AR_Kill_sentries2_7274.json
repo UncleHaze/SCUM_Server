@@ -1,0 +1,31 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 3,
+	"Title": "Drone sweep (2 sentries)",
+	"Description": "Drone sweep: eliminate 2 sentries for the armorer. Keep it quiet if you can.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 2880,
+			"Fame": 148,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 22000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Drone sweep (2 sentries)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination",
+			"TargetCharacters": [
+				"Sentry"
+			],
+			"Amount": 2
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 1,
+	"Title": "Range resupply: Weapon Charm Evil Eye",
+	"Description": "Range resupply in the Industrial yard area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 22,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Weapon Charm Evil Eye",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"WeaponCharm_EvilEye"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

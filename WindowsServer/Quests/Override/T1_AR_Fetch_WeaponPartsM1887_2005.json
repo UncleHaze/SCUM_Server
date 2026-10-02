@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 1,
+	"Title": "Security stock: Weapon Parts M1887",
+	"Description": "Security stock in the Z2 outskirts area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 22,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back Weapon Parts M1887",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Weapon_Parts_M1887"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

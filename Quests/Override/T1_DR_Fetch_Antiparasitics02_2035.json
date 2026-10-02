@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 1,
+	"Title": "Clinic resupply: Antiparasitics #2035",
+	"Description": "Clinic resupply in the Industrial yard area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 359,
+			"Fame": 18,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure Antiparasitics",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Antiparasitics_02"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

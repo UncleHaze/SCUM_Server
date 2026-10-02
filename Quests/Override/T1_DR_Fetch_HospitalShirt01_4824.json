@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 1,
+	"Title": "Triage stock: Hospital Shirt",
+	"Description": "Triage stock in the Z2 outskirts area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 20,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Bring back Hospital Shirt",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Hospital_Shirt_01"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

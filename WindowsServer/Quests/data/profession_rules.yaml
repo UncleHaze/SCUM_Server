@@ -1,0 +1,127 @@
+per_npc: 75
+
+tier_share: {1: 0.40, 2: 0.35, 3: 0.25}
+
+
+
+# explore/mix disabled until Interaction POIs are exported in-game (see explore_templates/).
+
+npcs:
+
+  Mechanic:
+
+    code: ME
+
+    associated: Mechanic
+
+    shop: Mechanic
+
+    skill: Engineering
+
+    allow_elimination: false
+
+    condition_mix: {fetch: 1.0, explore: 0.0, mix: 0.0, kill: 0.0}
+
+  Doctor:
+
+    code: DR
+
+    associated: Doctor
+
+    shop: Hospital
+
+    skill: Medical
+
+    allow_elimination: false
+
+    condition_mix: {fetch: 1.0, explore: 0.0, mix: 0.0, kill: 0.0}
+
+  Fisherman:
+
+    code: FM
+
+    associated: Fisherman
+
+    shop: BoatShop
+
+    skill: Survival
+
+    allow_elimination: false
+
+    condition_mix: {fetch: 1.0, explore: 0.0, mix: 0.0, kill: 0.0}
+
+  Armorer:
+
+    code: AR
+
+    associated: Armorer
+
+    shop: Armory
+
+    skill: Handgun
+
+    allow_elimination: true
+
+    condition_mix: {fetch: 0.65, explore: 0.0, mix: 0.0, kill: 0.35}
+
+  Bartender:
+
+    code: BT
+
+    associated: Bartender
+
+    shop: Saloon
+
+    skill: MeleeWeapons
+
+    allow_elimination: true
+
+    condition_mix: {fetch: 0.60, explore: 0.0, mix: 0.0, kill: 0.40}
+
+  Barber:
+
+    code: BR
+
+    associated: Barber
+
+    shop: Trader
+
+    skill: Awareness
+
+    allow_elimination: false
+
+    clothing_only: true
+
+    condition_mix: {fetch: 1.0, explore: 0.0, mix: 0.0, kill: 0.0}
+
+  GeneralGoods:
+
+    code: GG
+
+    associated: GeneralGoods
+
+    shop: Trader
+
+    skill: Survival
+
+    allow_elimination: false
+
+    clothing_only: false
+
+    condition_mix: {fetch: 1.0, explore: 0.0, mix: 0.0, kill: 0.0}
+
+  Banker:
+
+    code: HN
+
+    associated: Banker
+
+    shop: Hunter
+
+    skill: Survival
+
+    allow_elimination: false
+
+    condition_mix: {fetch: 1.0, explore: 0.0, mix: 0.0, kill: 0.0}
+
+

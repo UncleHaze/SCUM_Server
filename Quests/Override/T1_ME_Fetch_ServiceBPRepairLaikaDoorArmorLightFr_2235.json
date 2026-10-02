@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Mechanic",
+	"Tier": 1,
+	"Title": "Service bay order: Vehicle repair kit (Laika Door Ar...",
+	"Description": "Service bay order in the Industrial yard area. Deliver to the mechanic\u2014exact items only. Service kits are workshop items used on vehicles to install or repair a specific part (not generic loot).",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 14,
+			"Skills": [
+				{
+					"Skill": "Engineering",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Collect Vehicle repair kit (Laika Door Armor Light Front Left)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"ServiceBP_Repair_Laika_Door_ArmorLight_FrontLeft_Item"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

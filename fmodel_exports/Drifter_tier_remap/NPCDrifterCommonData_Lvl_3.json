@@ -1,0 +1,333 @@
+[
+  {
+    "Type": "ArmedNPCBaseCommonData",
+    "Name": "NPCDrifterCommonData_Lvl_3",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArmedNPCBaseCommonData'",
+    "Package": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_3",
+    "Properties": {
+      "MaxHealth": 240.0,
+      "Variations": {
+        "ObjectName": "ArmedNPCVariationsData'ArmedNPCVariationsData_Lvl_5'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Base/ArmedNPCVariationsData_Lvl_5.0"
+      },
+      "PossibleItemInHands": [
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/Ranged_Weapons/Weapon_SDASS.Weapon_SDASS_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": [
+            {
+              "ObjectName": "ExamineAssetData'NPCDrifterCommonData_Lvl_3:ExamineAssetData_0'",
+              "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_3.1"
+            }
+          ]
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/Ranged_Weapons/Weapon_AS_Val.Weapon_AS_Val_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": [
+            {
+              "ObjectName": "ExamineAssetData'NPCDrifterCommonData_Lvl_3:ExamineAssetData_1'",
+              "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_3.2"
+            }
+          ]
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/Ranged_Weapons/Weapon_MP5.Weapon_MP5_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": [
+            {
+              "ObjectName": "ExamineAssetData'NPCDrifterCommonData_Lvl_3:ExamineAssetData_2'",
+              "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_3.3"
+            }
+          ]
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/Ranged_Weapons/Weapon_UMP45.Weapon_UMP45_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": [
+            {
+              "ObjectName": "ExamineAssetData'NPCDrifterCommonData_Lvl_3:ExamineAssetData_3'",
+              "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_3.4"
+            }
+          ]
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/Ranged_Weapons/Weapon_98k_Karabiner.Weapon_98k_Karabiner_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": [
+            {
+              "ObjectName": "ExamineAssetData'NPCDrifterCommonData_Lvl_3:ExamineAssetData_4'",
+              "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_3.5"
+            }
+          ]
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/Ranged_Weapons/Weapon_M1_Garand.Weapon_M1_Garand_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": [
+            {
+              "ObjectName": "ExamineAssetData'NPCDrifterCommonData_Lvl_3:ExamineAssetData_5'",
+              "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_3.6"
+            }
+          ]
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/Ranged_Weapons/Weapon_MosinNagant.Weapon_MosinNagant_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": [
+            {
+              "ObjectName": "ExamineAssetData'NPCDrifterCommonData_Lvl_3:ExamineAssetData_6'",
+              "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_3.7"
+            }
+          ]
+        }
+      ],
+      "DifficultyLevelSettings": {
+        "ObjectName": "ArmedNPCDifficultyLevelSettings'ArmedNPCDifficultyLevelSettings'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Base/DifficultySettings/ArmedNPCDifficultyLevelSettings.0"
+      },
+      "DamageCustomizationData": {
+        "ObjectName": "ArmedNPCDamageCustomizationData'DefaultArmedNPCDamageCustomizationData'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Base/Damage/DefaultArmedNPCDamageCustomizationData.0"
+      },
+      "ArmedNPCAimCorrectionsData": {
+        "ObjectName": "ArmedNPCAimCorrectionsData'ArmedNPCAimCorrections'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Base/AimCorrections/ArmedNPCAimCorrections.0"
+      },
+      "ExplosionDamageMultiplier": 2.4,
+      "PhysicalSurfacesData": {
+        "ObjectName": "PhysicalSurfacesData'PhysicalSurfacesData'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/Prisoner/Data/PhysicalSurfacesData.0"
+      },
+      "MovementSettingsOverride": {
+        "ObjectName": "ArmedNPCCombatMovementSettingsPerDifficultyLevelData'ArmedNPCCombatMovementSettingsOverride_NPC_Lvl_5'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Base/Movement/Settings/Override/ArmedNPCCombatMovementSettingsOverride_NPC_Lvl_5.0"
+      },
+      "MeleSkillLevel": "ESkillLevel::AboveAdvanced",
+      "BoxingSkillAnimationsPreset": {
+        "ObjectName": "MeleeSkillAnimationsPreset'Boxing'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Skills/MeleeAnimationPresets/Boxing.0"
+      },
+      "MeleeAttackTypes": {
+        "PrimaryMeleeAttackTypeWhenNotMoving": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Primary.NotMoving"
+        },
+        "PrimaryMeleeAttackTypeWhenWalking": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Primary.Walking"
+        },
+        "PrimaryMeleeAttackTypeWhenJogging": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Primary.Jogging"
+        },
+        "PrimaryMeleeAttackTypeWhenRunning": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Primary.Running"
+        },
+        "PrimaryMeleeAttackTypeWhenFalling": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Primary.Falling"
+        },
+        "SecondaryMeleeAttackTypeWhenNotMoving": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Secondary.NotMoving"
+        },
+        "SecondaryMeleeAttackTypeWhenWalking": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Secondary.Walking"
+        },
+        "SecondaryMeleeAttackTypeWhenJogging": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Secondary.Jogging"
+        },
+        "SecondaryMeleeAttackTypeWhenRunning": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Secondary.Running"
+        },
+        "SecondaryMeleeAttackTypeWhenFalling": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Secondary.Falling"
+        },
+        "ComboMeleeAttackTypeWhenNotMoving": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Combo.NotMoving"
+        },
+        "ComboMeleeAttackTypeWhenWalking": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Combo.Walking"
+        },
+        "ComboMeleeAttackTypeWhenJogging": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Combo.Jogging"
+        },
+        "ComboMeleeAttackTypeWhenRunning": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Combo.Running"
+        },
+        "ComboMeleeAttackTypeWhenFalling": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Combo.Falling"
+        },
+        "BashMeleeAttackType": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Bash"
+        },
+        "WeaponBayonetMeleeAttackType": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Bayonet"
+        }
+      },
+      "MeleeAttackCapsulesAttachmentForItemInRHand": {
+        "TagName": "MeleeAttackCapsule.Attachment.Human.Item_R"
+      },
+      "HitReactTypeWhenStanding": {
+        "TagName": "HitReactType.Prisoner.Standing"
+      },
+      "HitReactTypeWhenStandingInCombatMode": {
+        "TagName": "HitReactType.Prisoner.Standing.CombatMode"
+      },
+      "HitReactTypeWhenCrouching": {
+        "TagName": "HitReactType.Prisoner.Crouching"
+      },
+      "HitReactTypeWhenProne": {
+        "TagName": "HitReactType.Prisoner.Prone"
+      },
+      "AnimationsForEvents[1]": {
+        "ObjectName": "AnimMontage'UC_ImprovisedFlashLight_L2_Kick03_Montage'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/Prisoner/Animations3/Boxing/Boxing_with_ImprovisedFlashlight/L2/Punches/UC_ImprovisedFlashLight_L2_Kick03_Montage.0"
+      }
+    }
+  },
+  {
+    "Type": "ExamineAssetData",
+    "Name": "ExamineAssetData_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ExamineAssetData'",
+    "Outer": {
+      "ObjectName": "ArmedNPCBaseCommonData'NPCDrifterCommonData_Lvl_3'",
+      "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_5.0"
+    },
+    "Properties": {
+      "SpawnerPreset": {
+        "Preset": {
+          "ObjectName": "BlueprintGeneratedClass'Examine_Scavenger_05_SDASS_C'",
+          "ObjectPath": "SCUM/Content/ConZ_Files/Items/SpawnerPresets2/Character/ArmedNPCs/Examine_Scavenger_05_SDASS.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "ExamineAssetData",
+    "Name": "ExamineAssetData_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ExamineAssetData'",
+    "Outer": {
+      "ObjectName": "ArmedNPCBaseCommonData'NPCDrifterCommonData_Lvl_3'",
+      "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_5.0"
+    },
+    "Properties": {
+      "SpawnerPreset": {
+        "Preset": {
+          "ObjectName": "BlueprintGeneratedClass'Examine_Scavenger_05_ASVal_C'",
+          "ObjectPath": "SCUM/Content/ConZ_Files/Items/SpawnerPresets2/Character/ArmedNPCs/Examine_Scavenger_05_ASVal.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "ExamineAssetData",
+    "Name": "ExamineAssetData_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ExamineAssetData'",
+    "Outer": {
+      "ObjectName": "ArmedNPCBaseCommonData'NPCDrifterCommonData_Lvl_3'",
+      "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_5.0"
+    },
+    "Properties": {
+      "SpawnerPreset": {
+        "Preset": {
+          "ObjectName": "BlueprintGeneratedClass'Examine_Scavenger_05_MP5_C'",
+          "ObjectPath": "SCUM/Content/ConZ_Files/Items/SpawnerPresets2/Character/ArmedNPCs/Examine_Scavenger_05_MP5.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "ExamineAssetData",
+    "Name": "ExamineAssetData_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ExamineAssetData'",
+    "Outer": {
+      "ObjectName": "ArmedNPCBaseCommonData'NPCDrifterCommonData_Lvl_3'",
+      "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_5.0"
+    },
+    "Properties": {
+      "SpawnerPreset": {
+        "Preset": {
+          "ObjectName": "BlueprintGeneratedClass'Examine_Scavenger_05_UMP45_C'",
+          "ObjectPath": "SCUM/Content/ConZ_Files/Items/SpawnerPresets2/Character/ArmedNPCs/Examine_Scavenger_05_UMP45.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "ExamineAssetData",
+    "Name": "ExamineAssetData_4",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ExamineAssetData'",
+    "Outer": {
+      "ObjectName": "ArmedNPCBaseCommonData'NPCDrifterCommonData_Lvl_3'",
+      "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_5.0"
+    },
+    "Properties": {
+      "SpawnerPreset": {
+        "Preset": {
+          "ObjectName": "BlueprintGeneratedClass'Examine_Scavenger_05_98Karabiner_C'",
+          "ObjectPath": "SCUM/Content/ConZ_Files/Items/SpawnerPresets2/Character/ArmedNPCs/Examine_Scavenger_05_98Karabiner.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "ExamineAssetData",
+    "Name": "ExamineAssetData_5",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ExamineAssetData'",
+    "Outer": {
+      "ObjectName": "ArmedNPCBaseCommonData'NPCDrifterCommonData_Lvl_3'",
+      "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_5.0"
+    },
+    "Properties": {
+      "SpawnerPreset": {
+        "Preset": {
+          "ObjectName": "BlueprintGeneratedClass'Examine_Scavenger_05_M1Garand_C'",
+          "ObjectPath": "SCUM/Content/ConZ_Files/Items/SpawnerPresets2/Character/ArmedNPCs/Examine_Scavenger_05_M1Garand.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "ExamineAssetData",
+    "Name": "ExamineAssetData_6",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ExamineAssetData'",
+    "Outer": {
+      "ObjectName": "ArmedNPCBaseCommonData'NPCDrifterCommonData_Lvl_3'",
+      "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_5.0"
+    },
+    "Properties": {
+      "SpawnerPreset": {
+        "Preset": {
+          "ObjectName": "BlueprintGeneratedClass'Examine_Scavenger_05_MosinNagant_C'",
+          "ObjectPath": "SCUM/Content/ConZ_Files/Items/SpawnerPresets2/Character/ArmedNPCs/Examine_Scavenger_05_MosinNagant.0"
+        }
+      }
+    }
+  }
+]

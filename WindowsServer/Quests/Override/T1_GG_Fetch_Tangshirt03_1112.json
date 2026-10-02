@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "GeneralGoods",
+	"Tier": 1,
+	"Title": "General store run: Tang shirt",
+	"Description": "General store run in the Coastal road area. Deliver to the generalgoods\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 15,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Tang shirt",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Tang_shirt_03"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

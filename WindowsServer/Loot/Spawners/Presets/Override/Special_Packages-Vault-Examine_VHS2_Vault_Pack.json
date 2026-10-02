@@ -1,0 +1,20 @@
+{
+	"FixedItems": [
+		"Gas_Mask_02",
+		"WeaponGhillie_Woodland",
+		"WeaponSights_RedDot_CA401B"
+	],
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 0,
+	"RandomDamage": 0,
+	"InitialUsage": 0,
+	"RandomUsage": 0,
+	"InitialStack": 0,
+	"RandomStack": 0,
+	"Items": [
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_VHS2"
+		}
+	]
+}

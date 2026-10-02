@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 1,
+	"Title": "Taproom supply: Armillaria Mellea",
+	"Description": "Taproom supply in the Forest trail area. Deliver to the bartender\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 22,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Procure Armillaria Mellea",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Armillaria_Mellea"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

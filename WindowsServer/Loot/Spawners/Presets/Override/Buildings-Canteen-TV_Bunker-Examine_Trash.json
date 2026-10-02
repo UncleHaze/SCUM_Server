@@ -1,0 +1,37 @@
+{
+	"Nodes": [
+		{
+			"Rarity": "Uncommon",
+			"Ids": [
+				"ItemLootTreeNodes.FoodStore.Drinks",
+				"ItemLootTreeNodes.FoodStore.Food.Cans",
+				"ItemLootTreeNodes.FoodStore.Food.CookingIngredients",
+				"ItemLootTreeNodes.FoodStore.Food.Dairy",
+				"ItemLootTreeNodes.FoodStore.Food.Fruit",
+				"ItemLootTreeNodes.FoodStore.Food.Snacks",
+				"ItemLootTreeNodes.FoodStore.Food.Veggies",
+				"ItemLootTreeNodes.FoodStore.Items.Misc.Cigarettes",
+				"ItemLootTreeNodes.FoodStore.Items.Misc.Fabric"
+			]
+		},
+		{
+			"Rarity": "Uncommon",
+			"Ids": [
+				"ItemLootTreeNodes.Military.FoodDrink"
+			]
+		}
+	],
+	"Probability": 16.8,
+	"QuantityMin": 1,
+	"QuantityMax": 1,
+	"AllowDuplicates": false,
+	"ShouldFilterItemsByZone": true,
+	"ShouldApplyLocationSpecificProbabilityModifier": true,
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 50,
+	"RandomDamage": 40,
+	"InitialUsage": 50,
+	"RandomUsage": 40,
+	"InitialStack": 0,
+	"RandomStack": 0
+}

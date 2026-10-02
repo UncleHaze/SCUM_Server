@@ -1,0 +1,19 @@
+{
+	"FixedItems": [
+		"ScopeRail_AK47",
+		"WeaponSights_V3_Holographic"
+	],
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 0,
+	"RandomDamage": 0,
+	"InitialUsage": 0,
+	"RandomUsage": 0,
+	"InitialStack": 0,
+	"RandomStack": 0,
+	"Items": [
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_RPK-74"
+		}
+	]
+}

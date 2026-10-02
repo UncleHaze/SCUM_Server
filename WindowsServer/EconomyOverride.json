@@ -1,0 +1,2375 @@
+{
+	"economy-override": {
+		"economy-reset-time-hours": "-1.0",
+		"prices-randomization-time-hours": "-1.0",
+		"tradeable-rotation-time-ingame-hours-min": "48.0",
+		"tradeable-rotation-time-ingame-hours-max": "96.0",
+		"tradeable-rotation-time-of-day-min": "8.0",
+		"tradeable-rotation-time-of-day-max": "16.0",
+		"fully-restock-tradeable-hours": "5.0",
+		"trader-funds-change-rate-per-hour-multiplier": "1.0",
+		"prices-subject-to-delta": "0",
+		"prices-subject-to-player-count": "0",
+		"gold-price-subject-to-global-multiplier": "1",
+		"gold-base-price": "-1",
+		"gold-sale-price-modifier": "-1.0",
+		"gold-price-change-percentage-step": "-1.0",
+		"gold-price-change-per-step": "-1.0",
+		"economy-logging": "1",
+		"traders-unlimited-funds": "1",
+		"traders-unlimited-stock": "0",
+		"global-only-after-player-sale-tradeable-availability-enabled": "0",
+		"tradeable-rotation-enabled": "1",
+		"enable-fame-point-requirement": "1",
+		"traders": {
+			"A_0_Armory": [
+				{
+					"tradeable-code": "Keycard",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardApex",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardBunker_Level01",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardBunker_Level02",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AK47",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AK15",
+					"base-purchase-price": "14720",
+					"base-sell-price": "1400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M16A4",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SCAR_L",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "950",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M249",
+					"base-purchase-price": "23920",
+					"base-sell-price": "1800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1200",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_RPK-74",
+					"base-purchase-price": "22080",
+					"base-sell-price": "1600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1100",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_MK18",
+					"base-purchase-price": "16000",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SVD_Dragunov",
+					"base-purchase-price": "27600",
+					"base-sell-price": "2000",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AWM",
+					"base-purchase-price": "18400",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AWP",
+					"base-purchase-price": "18400",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M82A1",
+					"base-purchase-price": "36800",
+					"base-sell-price": "2800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "2000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SCAR_DMR",
+					"base-purchase-price": "20240",
+					"base-sell-price": "2100",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1300",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_VSS_VZ",
+					"base-purchase-price": "14720",
+					"base-sell-price": "1600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AS_Val",
+					"base-purchase-price": "10000",
+					"base-sell-price": "1400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_MP5_SD",
+					"base-purchase-price": "8800",
+					"base-sell-price": "1200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_RPG7",
+					"base-purchase-price": "16560",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AK47",
+					"base-purchase-price": "1100",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AK15",
+					"base-purchase-price": "1200",
+					"base-sell-price": "200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M16",
+					"base-purchase-price": "900",
+					"base-sell-price": "150",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_SCAR_DMR",
+					"base-purchase-price": "1100",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M249",
+					"base-purchase-price": "2200",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_RPK",
+					"base-purchase-price": "1800",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_SVD_Dragunov",
+					"base-purchase-price": "1800",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1100",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AWM",
+					"base-purchase-price": "2000",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AWP",
+					"base-purchase-price": "2000",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M82A1",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_02",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_03",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_04",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_05",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_01",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_02",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_03",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_04",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_05",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Police_Vest_01",
+					"base-purchase-price": "3800",
+					"base-sell-price": "600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Military_Backpack_02_03",
+					"base-purchase-price": "2400",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Night_Vision_Goggles_01",
+					"base-purchase-price": "6500",
+					"base-sell-price": "900",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_5_56x45mm_Ammobox",
+					"base-purchase-price": "1800",
+					"base-sell-price": "280",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_5_56x45mm_AP_Ammobox",
+					"base-purchase-price": "2800",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x39mm_Ammobox",
+					"base-purchase-price": "1900",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "550",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x39mm_AP_Ammobox",
+					"base-purchase-price": "2900",
+					"base-sell-price": "420",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_308_Ammobox",
+					"base-purchase-price": "2200",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_308_Ammobox_AP",
+					"base-purchase-price": "3800",
+					"base-sell-price": "550",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x54mmR_Ammobox",
+					"base-purchase-price": "2400",
+					"base-sell-price": "380",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x54mmR_AP_Ammobox",
+					"base-purchase-price": "4200",
+					"base-sell-price": "550",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_338_Ammobox",
+					"base-purchase-price": "2600",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_50BMG_Ammobox",
+					"base-purchase-price": "18000",
+					"base-sell-price": "1800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_50BMG_AP_Ammobox",
+					"base-purchase-price": "22000",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4",
+					"base-purchase-price": "-1",
+					"base-sell-price": "600",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "2000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Pack",
+					"base-purchase-price": "-1",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Detonator",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_CircuitBoard",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Keypad",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				}
+			],
+			"A_0_Hospital": [
+				{
+					"tradeable-code": "Adrenaline_Shot",
+					"base-purchase-price": "1200",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "AtropineInjection",
+					"base-purchase-price": "1200",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Hemostatic_Dressing",
+					"base-purchase-price": "1000",
+					"base-sell-price": "150",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Emergency_bandage_Big",
+					"base-purchase-price": "2000",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Tourniquet",
+					"base-purchase-price": "2000",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				}
+			],
+			"A_0_Barber": [],
+			"A_0_Saloon": [],
+			"A_0_BoatShop": [],
+			"A_0_Mechanic": [],
+			"A_0_Trader": [],
+			"A_0_Hunter": [],
+			"A_0_Master_Hunter": [],
+			"B_4_Armory": [
+				{
+					"tradeable-code": "Keycard",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardApex",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardBunker_Level01",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardBunker_Level02",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AK47",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AK15",
+					"base-purchase-price": "14720",
+					"base-sell-price": "1400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M16A4",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SCAR_L",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "950",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M249",
+					"base-purchase-price": "23920",
+					"base-sell-price": "1800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1200",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_RPK-74",
+					"base-purchase-price": "22080",
+					"base-sell-price": "1600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1100",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_MK18",
+					"base-purchase-price": "16000",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SVD_Dragunov",
+					"base-purchase-price": "27600",
+					"base-sell-price": "2000",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AWM",
+					"base-purchase-price": "18400",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AWP",
+					"base-purchase-price": "18400",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M82A1",
+					"base-purchase-price": "36800",
+					"base-sell-price": "2800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "2000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SCAR_DMR",
+					"base-purchase-price": "20240",
+					"base-sell-price": "2100",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1300",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_VSS_VZ",
+					"base-purchase-price": "14720",
+					"base-sell-price": "1600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AS_Val",
+					"base-purchase-price": "10000",
+					"base-sell-price": "1400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_MP5_SD",
+					"base-purchase-price": "8800",
+					"base-sell-price": "1200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_RPG7",
+					"base-purchase-price": "16560",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AK47",
+					"base-purchase-price": "1100",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AK15",
+					"base-purchase-price": "1200",
+					"base-sell-price": "200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M16",
+					"base-purchase-price": "900",
+					"base-sell-price": "150",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_SCAR_DMR",
+					"base-purchase-price": "1100",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M249",
+					"base-purchase-price": "2200",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_RPK",
+					"base-purchase-price": "1800",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_SVD_Dragunov",
+					"base-purchase-price": "1800",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1100",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AWM",
+					"base-purchase-price": "2000",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AWP",
+					"base-purchase-price": "2000",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M82A1",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_02",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_03",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_04",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_05",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_01",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_02",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_03",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_04",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_05",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Police_Vest_01",
+					"base-purchase-price": "3800",
+					"base-sell-price": "600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Military_Backpack_02_03",
+					"base-purchase-price": "2400",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Night_Vision_Goggles_01",
+					"base-purchase-price": "6500",
+					"base-sell-price": "900",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_5_56x45mm_Ammobox",
+					"base-purchase-price": "1800",
+					"base-sell-price": "280",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_5_56x45mm_AP_Ammobox",
+					"base-purchase-price": "2800",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x39mm_Ammobox",
+					"base-purchase-price": "1900",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "550",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x39mm_AP_Ammobox",
+					"base-purchase-price": "2900",
+					"base-sell-price": "420",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_308_Ammobox",
+					"base-purchase-price": "2200",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_308_Ammobox_AP",
+					"base-purchase-price": "3800",
+					"base-sell-price": "550",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x54mmR_Ammobox",
+					"base-purchase-price": "2400",
+					"base-sell-price": "380",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x54mmR_AP_Ammobox",
+					"base-purchase-price": "4200",
+					"base-sell-price": "550",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_338_Ammobox",
+					"base-purchase-price": "2600",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_50BMG_Ammobox",
+					"base-purchase-price": "18000",
+					"base-sell-price": "1800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_50BMG_AP_Ammobox",
+					"base-purchase-price": "22000",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4",
+					"base-purchase-price": "-1",
+					"base-sell-price": "600",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "2000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Pack",
+					"base-purchase-price": "-1",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Detonator",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_CircuitBoard",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Keypad",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				}
+			],
+			"B_4_Hospital": [
+				{
+					"tradeable-code": "Adrenaline_Shot",
+					"base-purchase-price": "1200",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "AtropineInjection",
+					"base-purchase-price": "1200",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Hemostatic_Dressing",
+					"base-purchase-price": "1000",
+					"base-sell-price": "150",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Emergency_bandage_Big",
+					"base-purchase-price": "2000",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Tourniquet",
+					"base-purchase-price": "2000",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				}
+			],
+			"B_4_Barber": [],
+			"B_4_Saloon": [],
+			"B_4_BoatShop": [],
+			"B_4_Mechanic": [],
+			"B_4_Trader": [],
+			"B_4_Hunter": [],
+			"B_4_Master_Hunter": [],
+			"C_2_Armory": [
+				{
+					"tradeable-code": "Keycard",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardApex",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardBunker_Level01",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardBunker_Level02",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AK47",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AK15",
+					"base-purchase-price": "14720",
+					"base-sell-price": "1400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M16A4",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SCAR_L",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "950",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M249",
+					"base-purchase-price": "23920",
+					"base-sell-price": "1800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1200",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_RPK-74",
+					"base-purchase-price": "22080",
+					"base-sell-price": "1600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1100",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_MK18",
+					"base-purchase-price": "16000",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SVD_Dragunov",
+					"base-purchase-price": "27600",
+					"base-sell-price": "2000",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AWM",
+					"base-purchase-price": "18400",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AWP",
+					"base-purchase-price": "18400",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M82A1",
+					"base-purchase-price": "36800",
+					"base-sell-price": "2800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "2000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SCAR_DMR",
+					"base-purchase-price": "20240",
+					"base-sell-price": "2100",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1300",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_VSS_VZ",
+					"base-purchase-price": "14720",
+					"base-sell-price": "1600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AS_Val",
+					"base-purchase-price": "10000",
+					"base-sell-price": "1400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_MP5_SD",
+					"base-purchase-price": "8800",
+					"base-sell-price": "1200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_RPG7",
+					"base-purchase-price": "16560",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AK47",
+					"base-purchase-price": "1100",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AK15",
+					"base-purchase-price": "1200",
+					"base-sell-price": "200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M16",
+					"base-purchase-price": "900",
+					"base-sell-price": "150",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_SCAR_DMR",
+					"base-purchase-price": "1100",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M249",
+					"base-purchase-price": "2200",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_RPK",
+					"base-purchase-price": "1800",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_SVD_Dragunov",
+					"base-purchase-price": "1800",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1100",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AWM",
+					"base-purchase-price": "2000",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AWP",
+					"base-purchase-price": "2000",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M82A1",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_02",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_03",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_04",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_05",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_01",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_02",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_03",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_04",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_05",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Police_Vest_01",
+					"base-purchase-price": "3800",
+					"base-sell-price": "600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Military_Backpack_02_03",
+					"base-purchase-price": "2400",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Night_Vision_Goggles_01",
+					"base-purchase-price": "6500",
+					"base-sell-price": "900",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_5_56x45mm_Ammobox",
+					"base-purchase-price": "1800",
+					"base-sell-price": "280",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_5_56x45mm_AP_Ammobox",
+					"base-purchase-price": "2800",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x39mm_Ammobox",
+					"base-purchase-price": "1900",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "550",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x39mm_AP_Ammobox",
+					"base-purchase-price": "2900",
+					"base-sell-price": "420",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_308_Ammobox",
+					"base-purchase-price": "2200",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_308_Ammobox_AP",
+					"base-purchase-price": "3800",
+					"base-sell-price": "550",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x54mmR_Ammobox",
+					"base-purchase-price": "2400",
+					"base-sell-price": "380",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x54mmR_AP_Ammobox",
+					"base-purchase-price": "4200",
+					"base-sell-price": "550",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_338_Ammobox",
+					"base-purchase-price": "2600",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_50BMG_Ammobox",
+					"base-purchase-price": "18000",
+					"base-sell-price": "1800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_50BMG_AP_Ammobox",
+					"base-purchase-price": "22000",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4",
+					"base-purchase-price": "-1",
+					"base-sell-price": "600",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "2000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Pack",
+					"base-purchase-price": "-1",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Detonator",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_CircuitBoard",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Keypad",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				}
+			],
+			"C_2_Hospital": [
+				{
+					"tradeable-code": "Adrenaline_Shot",
+					"base-purchase-price": "1200",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "AtropineInjection",
+					"base-purchase-price": "1200",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Hemostatic_Dressing",
+					"base-purchase-price": "1000",
+					"base-sell-price": "150",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Emergency_bandage_Big",
+					"base-purchase-price": "2000",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Tourniquet",
+					"base-purchase-price": "2000",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				}
+			],
+			"C_2_Barber": [],
+			"C_2_Saloon": [],
+			"C_2_BoatShop": [],
+			"C_2_Mechanic": [],
+			"C_2_Trader": [],
+			"C_2_Hunter": [],
+			"C_2_Master_Hunter": [],
+			"Z_3_Armory": [
+				{
+					"tradeable-code": "Keycard",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardApex",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardBunker_Level01",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "KeyCardBunker_Level02",
+					"base-purchase-price": "-1",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AK47",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AK15",
+					"base-purchase-price": "14720",
+					"base-sell-price": "1400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M16A4",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SCAR_L",
+					"base-purchase-price": "12880",
+					"base-sell-price": "1500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "950",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M249",
+					"base-purchase-price": "23920",
+					"base-sell-price": "1800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1200",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_RPK-74",
+					"base-purchase-price": "22080",
+					"base-sell-price": "1600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1100",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_MK18",
+					"base-purchase-price": "16000",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SVD_Dragunov",
+					"base-purchase-price": "27600",
+					"base-sell-price": "2000",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AWM",
+					"base-purchase-price": "18400",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AWP",
+					"base-purchase-price": "18400",
+					"base-sell-price": "2500",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_M82A1",
+					"base-purchase-price": "36800",
+					"base-sell-price": "2800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "2000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_SCAR_DMR",
+					"base-purchase-price": "20240",
+					"base-sell-price": "2100",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1300",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_VSS_VZ",
+					"base-purchase-price": "14720",
+					"base-sell-price": "1600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AS_Val",
+					"base-purchase-price": "10000",
+					"base-sell-price": "1400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_MP5_SD",
+					"base-purchase-price": "8800",
+					"base-sell-price": "1200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_RPG7",
+					"base-purchase-price": "16560",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AK47",
+					"base-purchase-price": "1100",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AK15",
+					"base-purchase-price": "1200",
+					"base-sell-price": "200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M16",
+					"base-purchase-price": "900",
+					"base-sell-price": "150",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_SCAR_DMR",
+					"base-purchase-price": "1100",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M249",
+					"base-purchase-price": "2200",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_RPK",
+					"base-purchase-price": "1800",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_SVD_Dragunov",
+					"base-purchase-price": "1800",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1100",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AWM",
+					"base-purchase-price": "2000",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_AWP",
+					"base-purchase-price": "2000",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Magazine_M82A1",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1600",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_02",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_03",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_04",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Bulletproof_Vest_01_05",
+					"base-purchase-price": "2800",
+					"base-sell-price": "450",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_01",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_02",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_03",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_04",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Tactical_Vest_01_05",
+					"base-purchase-price": "4200",
+					"base-sell-price": "650",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Armor_Police_Vest_01",
+					"base-purchase-price": "3800",
+					"base-sell-price": "600",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Military_Backpack_02_03",
+					"base-purchase-price": "2400",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Night_Vision_Goggles_01",
+					"base-purchase-price": "6500",
+					"base-sell-price": "900",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_5_56x45mm_Ammobox",
+					"base-purchase-price": "1800",
+					"base-sell-price": "280",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_5_56x45mm_AP_Ammobox",
+					"base-purchase-price": "2800",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x39mm_Ammobox",
+					"base-purchase-price": "1900",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "550",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x39mm_AP_Ammobox",
+					"base-purchase-price": "2900",
+					"base-sell-price": "420",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_308_Ammobox",
+					"base-purchase-price": "2200",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "700",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_308_Ammobox_AP",
+					"base-purchase-price": "3800",
+					"base-sell-price": "550",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "900",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x54mmR_Ammobox",
+					"base-purchase-price": "2400",
+					"base-sell-price": "380",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_7_62x54mmR_AP_Ammobox",
+					"base-purchase-price": "4200",
+					"base-sell-price": "550",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_338_Ammobox",
+					"base-purchase-price": "2600",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_50BMG_Ammobox",
+					"base-purchase-price": "18000",
+					"base-sell-price": "1800",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Cal_50BMG_AP_Ammobox",
+					"base-purchase-price": "22000",
+					"base-sell-price": "2200",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "1800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4",
+					"base-purchase-price": "-1",
+					"base-sell-price": "600",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "2000",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Pack",
+					"base-purchase-price": "-1",
+					"base-sell-price": "400",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1500",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Detonator",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_CircuitBoard",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "C4_Keypad",
+					"base-purchase-price": "-1",
+					"base-sell-price": "350",
+					"delta-price": "0.0",
+					"can-be-purchased": "false",
+					"required-famepoints": "1400",
+					"available-after-sale-only": "default"
+				}
+			],
+			"Z_3_Hospital": [
+				{
+					"tradeable-code": "Adrenaline_Shot",
+					"base-purchase-price": "1200",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "AtropineInjection",
+					"base-purchase-price": "1200",
+					"base-sell-price": "180",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Hemostatic_Dressing",
+					"base-purchase-price": "1000",
+					"base-sell-price": "150",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "750",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Emergency_bandage_Big",
+					"base-purchase-price": "2000",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "850",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Tourniquet",
+					"base-purchase-price": "2000",
+					"base-sell-price": "300",
+					"delta-price": "0.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "800",
+					"available-after-sale-only": "default"
+				}
+			],
+			"Z_3_Barber": [],
+			"Z_3_Saloon": [],
+			"Z_3_BoatShop": [],
+			"Z_3_Mechanic": [],
+			"Z_3_Trader": [],
+			"Z_3_Hunter": [],
+			"Z_3_Master_Hunter": []
+		}
+	}
+}

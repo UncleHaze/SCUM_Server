@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Doctor",
+	"Tier": 1,
+	"Title": "Infirmary order: Disposable Mask",
+	"Description": "Infirmary order in the Z2 outskirts area. Deliver to the doctor\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 22,
+			"Skills": [
+				{
+					"Skill": "Medical",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Source Disposable Mask",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Disposable_Mask"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

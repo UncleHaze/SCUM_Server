@@ -1,0 +1,31 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 1,
+	"Title": "Undead cull (8 puppets)",
+	"Description": "Undead cull: eliminate 8 puppets for the bartender. Keep it quiet if you can.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 840,
+			"Fame": 24,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Undead cull (8 puppets)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination",
+			"TargetCharacters": [
+				"Puppet"
+			],
+			"Amount": 8
+		}
+	]
+}

@@ -1,0 +1,18 @@
+.vscode/sftp.json
+.vscode/sftp.eugamehost.json
+.vscode/sftp.pockethost.json.disabled
+.env
+.env.*
+!.env.example
+*.db
+*.db-wal
+*.db-shm
+__pycache__/
+*.pyc
+node_modules/
+*.pak
+mod_staging/**/*.json
+EconomyOverride.proposed.json
+temp_logs/
+*.zip
+yeboi testing/

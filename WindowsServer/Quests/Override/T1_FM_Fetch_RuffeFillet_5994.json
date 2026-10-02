@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Fisherman",
+	"Tier": 1,
+	"Title": "Dockside order: Ruffe Fillet #5994",
+	"Description": "Dockside order in the Z2 outskirts area. Deliver to the fisherman\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 22,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Collect Ruffe Fillet",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Ruffe_Fillet"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

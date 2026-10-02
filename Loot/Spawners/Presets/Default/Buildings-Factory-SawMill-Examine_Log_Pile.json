@@ -1,0 +1,24 @@
+{
+	"Items": [
+		{
+			"Rarity": "Uncommon",
+			"Id": "Wooden_Log_01"
+		},
+		{
+			"Rarity": "Uncommon",
+			"Id": "Wooden_Log_02"
+		}
+	],
+	"QuantityMin": 2,
+	"QuantityMax": 5,
+	"AllowDuplicates": true,
+	"ShouldFilterItemsByZone": false,
+	"ShouldApplyLocationSpecificProbabilityModifier": true,
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 0,
+	"RandomDamage": 20,
+	"InitialUsage": 0,
+	"RandomUsage": 20,
+	"InitialStack": 0,
+	"RandomStack": 0
+}

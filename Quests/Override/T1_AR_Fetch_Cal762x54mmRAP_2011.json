@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 1,
+	"Title": "Security stock: Cal 62x54mm R AP",
+	"Description": "Security stock in the Industrial yard area. Deliver to the armorer\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 23,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Recover Cal 62x54mm R AP",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Cal_7_62x54mmR_AP"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

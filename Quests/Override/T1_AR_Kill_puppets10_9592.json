@@ -1,0 +1,31 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 1,
+	"Title": "Horde break (10 puppets)",
+	"Description": "Horde break: eliminate 10 puppets for the armorer. Keep it quiet if you can.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 920,
+			"Fame": 20,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Horde break (10 puppets)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination",
+			"TargetCharacters": [
+				"Puppet"
+			],
+			"Amount": 10
+		}
+	]
+}

@@ -1,0 +1,140 @@
+{
+	"Items": [
+		{
+			"Rarity": "Rare",
+			"Id": "Weapon_AK47"
+		},
+		{
+			"Rarity": "Rare",
+			"Id": "Weapon_AKM"
+		},
+		{
+			"Rarity": "Rare",
+			"Id": "Weapon_AK15"
+		},
+		{
+			"Rarity": "Rare",
+			"Id": "Weapon_MK18"
+		},
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_M16A4"
+		},
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_SCAR_L"
+		},
+		{
+			"Rarity": "Rare",
+			"Id": "Weapon_AS_Val"
+		},
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_VSS_VZ"
+		},
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_VHS2"
+		},
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_VHS2_Rail"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_RPK-74"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_M249"
+		},
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_SKS"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_SCAR_DMR"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_SVD_Dragunov"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_MosinNagant"
+		},
+		{
+			"Rarity": "Common",
+			"Id": "Weapon_CarbonHunter"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_M1_Garand"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_98k_Karabiner"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_AWM"
+		},
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_AWM_Desert"
+		},
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_AWM_Green"
+		},
+		{
+			"Rarity": "VeryRare",
+			"Id": "Weapon_AWM_Snake"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_AWP"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_AWP_Desert"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_AWP_Green"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_AWP_Snake"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_M82A1"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_M82A1_Black"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_M82A1_Desert"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Weapon_M82A1_Snow"
+		}
+	],
+	"QuantityMin": 1,
+	"QuantityMax": 1,
+	"AllowDuplicates": false,
+	"ShouldFilterItemsByZone": true,
+	"ShouldApplyLocationSpecificProbabilityModifier": true,
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 0,
+	"RandomDamage": 0,
+	"InitialUsage": 0,
+	"RandomUsage": 0,
+	"InitialStack": 0,
+	"RandomStack": 0
+}

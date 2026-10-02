@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 1,
+	"Title": "Saloon stock: GlassBottle04",
+	"Description": "Saloon stock in the Forest trail area. Deliver to the bartender\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 19,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Collect GlassBottle04",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"GlassBottle04"
+					],
+					"RequiredNum": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"AssociatedNPC": "Armorer",
+	"Tier": 2,
+	"Title": "Hostile contact (7 armed NPCs)",
+	"Description": "Hostile contact: eliminate 7 armed NPCs for the armorer. Keep it quiet if you can.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1680,
+			"Fame": 89,
+			"Skills": [
+				{
+					"Skill": "Handgun",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hostile contact (7 armed NPCs)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination",
+			"TargetCharacters": [
+				"ArmedNPC"
+			],
+			"Amount": 7
+		}
+	]
+}

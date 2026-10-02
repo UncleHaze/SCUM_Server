@@ -1,0 +1,31 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 2,
+	"Title": "Raider clear (8 armed NPCs)",
+	"Description": "Raider clear: eliminate 8 armed NPCs for the bartender. Keep it quiet if you can.",
+	"TimeLimitHours": 48,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 1720,
+			"Fame": 69,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 11000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Raider clear (8 armed NPCs)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination",
+			"TargetCharacters": [
+				"ArmedNPC"
+			],
+			"Amount": 8
+		}
+	]
+}

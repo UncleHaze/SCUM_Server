@@ -1,0 +1,32 @@
+{
+	"AssociatedNPC": "Bartender",
+	"Tier": 3,
+	"Title": "Threat removal (16 armed NPCs)",
+	"Description": "Threat removal: eliminate 16 armed NPCs for the bartender. Keep it quiet if you can.",
+	"TimeLimitHours": 72,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 3440,
+			"Fame": 168,
+			"Skills": [
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 22000
+				}
+			],
+			"CurrencyGold": 1
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Threat removal (16 armed NPCs)",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination",
+			"TargetCharacters": [
+				"ArmedNPC"
+			],
+			"Amount": 16
+		}
+	]
+}

@@ -1,0 +1,28 @@
+# Region labels drive quest titles/descriptions only until you add POI exports.
+# Each file must be a quest-modification-tool Interaction export (AnchorMesh+Instance+FallbackTransform).
+# Do not offset coordinates by hand — that crashes clients on accept.
+regions:
+  - id: z2_outskirts
+    label: Z2 outskirts
+    file: z2_outskirts.json
+    weight: 1.2
+  - id: north_ridge
+    label: North ridge
+    file: north_ridge.json
+    weight: 1.0
+  - id: coastal_road
+    label: Coastal road
+    file: coastal_road.json
+    weight: 1.0
+  - id: industrial_yard
+    label: Industrial yard
+    file: industrial_yard.json
+    weight: 0.9
+  - id: forest_trail
+    label: Forest trail
+    file: forest_trail.json
+    weight: 1.1
+  - id: highland_pass
+    label: Highland pass
+    file: highland_pass.json
+    weight: 0.8

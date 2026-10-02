@@ -1,0 +1,108 @@
+================================================================
+ scum-allow-mods v0.1.0 — Drop-In Install Bundle for SCUM
+================================================================
+
+This bundle re-enables loading of unsigned PAK mods in SCUM.
+It includes UE4SS Experimental v3.0.1-946 + the scum_allow_mods
+patch mod, pre-configured and ready to drop in.
+
+================================================================
+ QUICK-START INSTALL (5 minutes)
+================================================================
+
+1) Disable BattlEye in Windows.
+   Open PowerShell as Administrator, run:
+
+       Stop-Service -Name BEService -Force
+       Set-Service -Name BEService -StartupType Disabled
+
+2) Extract the contents of THIS bundle (everything next to this
+   INSTALL.txt) into your SCUM client's Win64 folder:
+
+       <Steam>\steamapps\common\SCUM\SCUM\Binaries\Win64\
+
+   After extraction it should look like:
+
+       Win64/
+        ├── dwmapi.dll                       <- from this bundle (UE4SS proxy)
+        ├── SCUM.exe                         <- already there (game's own)
+        ├── ue4ss/                           <- from this bundle
+        │   ├── UE4SS.dll
+        │   ├── UE4SS-settings.ini
+        │   ├── LICENSE
+        │   └── Mods/
+        │       ├── mods.txt
+        │       ├── scum_allow_mods/
+        │       │   ├── dlls/main.dll
+        │       │   └── enabled.txt
+        │       └── (other built-in mods, all disabled)
+        └── ... (other game files)
+
+3) In Steam: SCUM -> Properties -> Launch Options:
+
+       -nobattleye
+
+   Do NOT add -fileopenlog. This mod replaces it.
+
+4) Launch SCUM via SCUM.exe DIRECTLY (not through Steam's play
+   button — Steam still triggers the BattlEye launcher even with
+   -nobattleye). Easiest: create a desktop shortcut to SCUM.exe.
+
+5) Verify the mod loaded.
+   Open: <Win64>\ue4ss\UE4SS.log
+   Look for these lines:
+
+       [ScumAllowMods]: Init.
+       [ScumAllowMods]: Delegate found and patched.
+
+   If you see "Delegate not found", the AOB pattern needs an
+   update — a new SCUM patch may have shifted the function.
+
+6) Drop your unsigned mod-PAKs into:
+
+       <Steam>\steamapps\common\SCUM\SCUM\Content\Paks\~mods\
+
+   Re-launch SCUM. Check <SCUM>\Saved\Logs\SCUM.log for:
+
+       LogPakFile: Display: Mounting pak file ...
+
+   That's the success signal.
+
+================================================================
+ IMPORTANT WARNINGS
+================================================================
+
+* USE AT YOUR OWN RISK. There is no guarantee against future
+  bans or breakage.
+
+* When connecting to a SCUM server, the server compares your
+  loaded PAKs against its own. If they don't match, you get
+  kicked. Use this on MODDED servers that have matching PAKs.
+
+* Connecting to a vanilla server with extra PAKs gets you
+  kicked. There is no way around this — it's server-side.
+
+* The `-nobattleye` flag alone does NOT disable BattlEye. You
+  MUST also stop the BEService Windows service (step 1).
+
+* If a SCUM update breaks the mod, see the README for how to
+  re-extract a fresh AOB pattern.
+
+================================================================
+ SUPPORT / SOURCE
+================================================================
+
+Full README:        README.md (next to this file)
+GitHub repository:  https://github.com/<your-handle>/scum-allow-mods
+
+Licenses:
+- scum_allow_mods:  MIT (see LICENSE at top level)
+- UE4SS framework:  see ue4ss/LICENSE
+
+Credits:
+- Adapted from Narknon's AllowModsMod for PAYDAY 3:
+    https://github.com/narknon/AllowModsMod
+- UE4SS framework by RE-UE4SS team:
+    https://github.com/UE4SS-RE/RE-UE4SS
+
+================================================================

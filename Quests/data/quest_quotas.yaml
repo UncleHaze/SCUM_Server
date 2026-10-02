@@ -1,0 +1,5 @@
+# DEPRECATED — generator uses profession_rules.yaml only (condition_mix + allow_elimination).
+# Kept for reference; do not edit fetch_kill_split expecting it to apply.
+total_target: 600
+per_npc: 75
+tier_share: {1: 0.40, 2: 0.35, 3: 0.25}

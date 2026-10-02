@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Fisherman",
+	"Tier": 1,
+	"Title": "Dockside order: Fishing Line Piece",
+	"Description": "Dockside order in the Z2 outskirts area. Deliver to the fisherman\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 14,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Hand over Fishing Line Piece",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"FishingLinePiece_1"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

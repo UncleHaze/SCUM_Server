@@ -1,0 +1,71 @@
+{
+  "by_npc": {
+    "Armorer": {
+      "Fetch": 74,
+      "Interaction": 17,
+      "Elimination": 25,
+      "Mix": 9,
+      "Tour": 2,
+      "files": 75
+    },
+    "Barber": {
+      "Fetch": 102,
+      "Interaction": 36,
+      "Elimination": 0,
+      "Mix": 17,
+      "Tour": 3,
+      "files": 75
+    },
+    "Bartender": {
+      "Fetch": 66,
+      "Interaction": 16,
+      "Elimination": 30,
+      "Mix": 9,
+      "Tour": 1,
+      "files": 75
+    },
+    "Doctor": {
+      "Fetch": 100,
+      "Interaction": 34,
+      "Elimination": 0,
+      "Mix": 17,
+      "Tour": 1,
+      "files": 75
+    },
+    "Fisherman": {
+      "Fetch": 102,
+      "Interaction": 31,
+      "Elimination": 0,
+      "Mix": 15,
+      "Tour": 0,
+      "files": 75
+    },
+    "GeneralGoods": {
+      "Fetch": 104,
+      "Interaction": 35,
+      "Elimination": 0,
+      "Mix": 17,
+      "Tour": 2,
+      "files": 75
+    },
+    "Banker": {
+      "Fetch": 102,
+      "Interaction": 36,
+      "Elimination": 0,
+      "Mix": 20,
+      "Tour": 1,
+      "files": 75
+    },
+    "Mechanic": {
+      "Fetch": 102,
+      "Interaction": 34,
+      "Elimination": 0,
+      "Mix": 17,
+      "Tour": 1,
+      "files": 75
+    }
+  },
+  "errors": [],
+  "custom_quest_count": 600,
+  "created_this_run": 600
+}

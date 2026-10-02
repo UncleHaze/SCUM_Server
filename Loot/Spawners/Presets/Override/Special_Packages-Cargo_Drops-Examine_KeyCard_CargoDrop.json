@@ -1,0 +1,28 @@
+{
+	"Items": [
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "KeyCard"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "KeyCardApex"
+		}
+	],
+	"QuantityMin": 1,
+	"QuantityMax": 1,
+	"AllowDuplicates": false,
+	"ShouldFilterItemsByZone": true,
+	"ShouldApplyLocationSpecificProbabilityModifier": true,
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 0,
+	"RandomDamage": 0,
+	"InitialUsage": 0,
+	"RandomUsage": 0,
+	"InitialStack": 0,
+	"RandomStack": 0,
+	"PostSpawnActions": [
+		"KillboxKeycard_Cargo",
+		"ApexKeycard_Cargo"
+	]
+}

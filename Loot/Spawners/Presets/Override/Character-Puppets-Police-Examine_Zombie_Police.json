@@ -1,0 +1,30 @@
+{
+	"Nodes": [
+		{
+			"Rarity": "Uncommon",
+			"Ids": [
+				"ItemLootTreeNodes.DeadPuppets.Police.Ammo",
+				"ItemLootTreeNodes.DeadPuppets.Police.Items"
+			]
+		}
+	],
+	"Probability": 50,
+	"QuantityMin": 1,
+	"QuantityMax": 2,
+	"AllowDuplicates": false,
+	"ShouldFilterItemsByZone": false,
+	"ShouldApplyLocationSpecificProbabilityModifier": true,
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 80,
+	"RandomDamage": 15,
+	"InitialUsage": 80,
+	"RandomUsage": 15,
+	"InitialStack": 0,
+	"RandomStack": 0,
+	"Subpresets": [
+		{
+			"Rarity": "Uncommon",
+			"Id": "Character-Puppets-Loot-Examine_Loot_Puppet_Food_Pack"
+		}
+	]
+}

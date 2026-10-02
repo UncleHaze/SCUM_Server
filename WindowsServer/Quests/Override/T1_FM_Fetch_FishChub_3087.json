@@ -1,0 +1,37 @@
+{
+	"AssociatedNPC": "Fisherman",
+	"Tier": 1,
+	"Title": "Dockside order: Fish Chub",
+	"Description": "Dockside order in the Highland pass area. Deliver to the fisherman\u2014exact items only.",
+	"TimeLimitHours": 24,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 280,
+			"Fame": 16,
+			"Skills": [
+				{
+					"Skill": "Survival",
+					"Experience": 3500
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Deliver 2 Fish Chub",
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Fetch",
+			"DisablePurchaseOfRequiredItems": false,
+			"PlayerKeepsItems": false,
+			"RequiredItems": [
+				{
+					"AcceptedItems": [
+						"Fish_Chub"
+					],
+					"RequiredNum": 2
+				}
+			]
+		}
+	]
+}

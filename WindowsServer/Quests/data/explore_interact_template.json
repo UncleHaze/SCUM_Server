@@ -1,0 +1,35 @@
+{
+	"LocationsShownOnMap": [
+		{
+			"Location": "{X=-160901.625 Y=-681902.188 Z=787.616|P=0.000000 Y=0.000000 R=0.000000}",
+			"SizeFactor": 0.85
+		}
+	],
+	"Locations": [
+		{
+			"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/UEDPIE_0_Z_2_Novigrad_05.Z_2_Novigrad_05:PersistentLevel.SM_Bollard_01HISMA.HierarchicalInstancedStaticMesh",
+			"Instance": 18,
+			"FallbackTransform": "-160956.515625,-682914.875000,655.923828|0.028905,89.642578,-0.001068|1.001000,1.001000,1.001000",
+			"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Bollard/SM_Bollard_01.SM_Bollard_01"
+		},
+		{
+			"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/UEDPIE_0_Z_2_Novigrad_05.Z_2_Novigrad_05:PersistentLevel.SM_Bollard_01HISMA.HierarchicalInstancedStaticMesh",
+			"Instance": 19,
+			"FallbackTransform": "-160954.625000,-682614.812500,656.107910|0.035025,89.639603,-0.003448|1.001000,1.001000,1.001000",
+			"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Bollard/SM_Bollard_01.SM_Bollard_01"
+		},
+		{
+			"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/UEDPIE_0_Z_2_Novigrad_05.Z_2_Novigrad_05:PersistentLevel.SM_Bollard_01HISMA.HierarchicalInstancedStaticMesh",
+			"Instance": 20,
+			"FallbackTransform": "-160952.765625,-682314.750000,656.219910|-0.000704,89.657051,-0.006378|1.001000,1.001000,1.001000",
+			"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Bollard/SM_Bollard_01.SM_Bollard_01"
+		},
+		{
+			"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/UEDPIE_0_Z_2_Novigrad_05.Z_2_Novigrad_05:PersistentLevel.SM_Bollard_01HISMA.HierarchicalInstancedStaticMesh",
+			"Instance": 21,
+			"FallbackTransform": "-160951.093750,-682013.062500,655.948914|-0.129698,89.720062,-0.009094|1.001000,1.001000,1.001000",
+			"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Bollard/SM_Bollard_01.SM_Bollard_01"
+		}
+	],
+	"WorldMarkerShowDistance": 80
+}

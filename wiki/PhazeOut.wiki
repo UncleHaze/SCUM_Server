@@ -1,0 +1,203 @@
+<!--If you have any questions about what to put in these parameters, check out [[Template:Infobox_Private_Server/doc]] for descriptions of all of them
+
+-->{{Infobox_Private_Server <!--DO NOT REMOVE-->
+
+| server_image = PhazeOut.png
+
+| server_description = Survival PvP — 10 slots (scales with growth), 4× loot and skills. Weekend base raiding Fri 18:00–Sun 23:00 CET. Custom quests, tuned traders, tough puppets, rare explosives.
+
+| ip_address = 168.119.197.238:21177
+
+| battlemetrics_link = https://www.battlemetrics.com/servers/scum/41224981
+
+| password_protected =
+
+| discord_invite = https://discord.gg/84XWw5jbX6
+
+| website_url =
+
+| server_language = English
+
+| hosting_provider = xRealm
+
+| server_slots = 10
+
+| server_owner = nl_purplehaze
+
+| combat_style = PVP
+
+| server_bot =
+
+| black_market =
+
+| mech_level = Yes
+
+| loot_level = 4
+
+| puppet_pop = 3
+
+| puppet_damage = 2
+
+| vehicle_spawns = Vanilla
+
+| building_restrictions = Custom
+
+| character_perspective =
+
+| server_location = Europe
+
+}}<!--
+
+-->{{Battlemetrics_Embed|id=41224981}}
+
+
+
+== Server Summary ==
+
+
+
+'''PhazeOut''' is a small European '''survival PvP''' server — not a max-loot deathmatch. We focus on SCUM’s survival loop: looting, crafting, traders, custom quests, and gearing up. Open-world '''PvP is always on''', but progression and wipes are paced so you can '''live on the island''' between fights.
+
+
+
+We cap at '''10 slots''' at launch so encounters stay personal — you remember who raided you, who traded with you, and who’s been in the bunkers all week. The '''player limit rises as the community grows''' (announced on Discord), so we expand when regular population justifies it instead of opening an empty 64-pop server on day one.
+
+
+
+'''Weekdays''' are for building, farming, questing, and stocking up. '''Weekends''' are when base raiding opens and weekend tensions pay off. Base raiding is only allowed during the windows below — your stash and flag still matter, but you are not wiped every login.
+
+
+
+* '''Connect:''' <code>168.119.197.238:21177</code>
+
+* '''Discord:''' [https://discord.gg/84XWw5jbX6 PhazeOut Discord]
+
+* '''Slots:''' 10 now, increases with the player base
+
+* '''Password:''' None (public)
+
+* '''Loot:''' 4× spawner and examine loot
+
+* '''Skills & fame:''' 4× gain
+
+* '''Perspective:''' First and third person allowed
+
+
+
+=== Raid schedule (CET / UTC+2) ===
+
+
+
+All times use '''Central European Time (UTC+2)'''. Open-world PvP is allowed every day; the table is for '''base raiding''' only.
+
+
+
+{| class="wikitable"
+
+|-
+
+! Day !! Base raiding
+
+|-
+
+| Monday – Thursday || PvP yes — '''no base raiding'''
+
+|-
+
+| Friday || '''18:00 – 23:59'''
+
+|-
+
+| Saturday || '''00:00 – 23:59'''
+
+|-
+
+| Sunday || '''00:00 – 23:00'''
+
+|}
+
+
+
+=== Features ===
+
+
+
+* '''Custom quests''' — rotating objectives from traders and NPCs
+
+* '''Economy override''' — trader stock and pricing tuned for this server
+
+* '''Harder puppets''' — higher zombie damage and tougher encounter scaling
+
+* '''Rare explosives''' — loot settings keep top-tier explosives scarce
+
+* '''New player protection''' — short spawn protection for new characters
+
+* '''Raid announcements''' — in-game reminders when weekend raiding starts and ends
+
+
+
+=== Rules (short) ===
+
+
+
+# Respect raid times — no intentional base raiding outside Fri–Sun windows.
+
+# No cheating, duping, or bug abuse.
+
+# English is the primary language in global chat; keep it civil.
+
+# Admin decisions are final. Full rules and updates are on Discord.
+
+
+
+== Custom Map ==
+
+
+
+We use the '''vanilla SCUM map''' (no custom [https://scum-map.com/ SCUM-MAP] overlay yet). POI loot and server rules follow our overrides; weekend base raiding matches the schedule above and is enforced in-game.
+
+
+
+When we add a custom map, it will be embedded here.
+
+
+
+== Upcoming Events or Features ==
+
+
+
+* '''Slot increases''' as regular players and activity grow
+
+* Additional custom quest lines and trader rotations
+
+* Community events (announced on Discord)
+
+* Custom map link on this page when ready
+
+
+
+== Gallery ==
+
+
+
+<gallery>
+
+PhazeOut.png|PhazeOut logo
+
+</gallery>
+
+
+
+----
+
+[[File:PhazeOut Banner.jpg|center|800px|PhazeOut server banner]]
+
+
+
+[[Category:Private Servers]]
+
+[[Category:XRealm Servers]]
+
+[[Category:PVP Servers]]
+
+

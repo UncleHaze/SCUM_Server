@@ -1,0 +1,22 @@
+{
+	"raiding-times": [
+		{
+			"day": "Friday",
+			"time": "18:00-23:59",
+			"start-announcement-time": "30",
+			"end-announcement-time": "30"
+		},
+		{
+			"day": "Saturday",
+			"time": "00:00-23:59",
+			"start-announcement-time": "30",
+			"end-announcement-time": "30"
+		},
+		{
+			"day": "Sunday",
+			"time": "00:00-23:00",
+			"start-announcement-time": "30",
+			"end-announcement-time": "30"
+		}
+	]
+}

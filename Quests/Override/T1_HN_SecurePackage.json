@@ -1,0 +1,604 @@
+{
+	"AssociatedNPC": "Banker",
+	"Tier": 1,
+	"Title": "Secure package",
+	"Description": "Escort this package to our contact person, do NOT look inside, do NOT ask questions!",
+	"TimeLimitHours": 168,
+	"RewardPool": [
+		{
+			"CurrencyNormal": 15000,
+			"CurrencyGold": 2,
+			"Fame": 250,
+			"Skills": [
+				{
+					"Skill": "Rifles",
+					"Experience": 100000
+				},
+				{
+					"Skill": "Handgun",
+					"Experience": 100000
+				},
+				{
+					"Skill": "MeleeWeapons",
+					"Experience": 100000
+				},
+				{
+					"Skill": "Driving",
+					"Experience": 100000
+				}
+			]
+		}
+	],
+	"Conditions": [
+		{
+			"TrackingCaption": "Pick up the package at Z3 bank",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Outpost.Z_3_Outpost:PersistentLevel.Bank_CollisionBox2.StaticMeshComponent0",
+					"FallbackTransform": "20732.500000,-676683.000000,452.793945|0.000000,-131.337051,0.000000|7.291145,1.001000,4.482610",
+					"VisibleMesh": "/Engine/BasicShapes/Cube.Cube"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 0,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "Cross Peljesac Bridge",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_3_Peljesac_Bridge.A_3_Peljesac_Bridge:PersistentLevel.SM_Sign_Construction_01_23.StaticMeshComponent0",
+					"FallbackTransform": "166234.203125,-559966.062500,2370.063965|0.000000,1.435388,0.000000|1.627935,1.001000,1.217401",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Items/Signs/Construction/SM_Sign_Construction_01.SM_Sign_Construction_01"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 1,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "Restock supplies at Zaton",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/A_3_Zaton_03_Interior.A_3_Zaton_03_Interior:PersistentLevel.BP_CB_Supermarket_01_INT_0.SM_Market_Shelves_02 (ISMA)_InstancedStaticMesh",
+					"FallbackTransform": "201107.453125,-511615.812500,533.007751|0.000000,-7.043785,0.000000|1.000993,1.000993,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Market/SM_Market_Shelves_02.SM_Market_Shelves_02",
+					"Instance": 0
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 2,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "Get new directions at A4 Outpost",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_4_Outpost_Exterior_02.B_4_Outpost_Exterior_02:PersistentLevel.BP_Sign_OUT_B_4_2.SM_Direction_Plank_05",
+					"FallbackTransform": "569132.500000,-224671.593750,417.350769|0.000198,-79.999817,-179.999893|1.056995,1.201000,1.201000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Outpost/Direction_Signs/SM_Direction_Plank_02.SM_Direction_Plank_02"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 3,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "Bring the package to the tool shop in Samobor",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_01.D_4_Samobor_01:PersistentLevel.BP_Monument_Spring_A_2.SM_Monument_Spring_A",
+					"FallbackTransform": "330012.500000,360942.125000,20932.642578|0.000000,38.510590,0.000000|0.976000,0.976000,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Monuments/Monument_Spring_A/Objects/SM_Monument_Spring_A.SM_Monument_Spring_A"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 4,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "This town is overrun! Fight your way back out of this place!",
+			"Amount": 30,
+			"TargetCharacters": [
+				"BP_Zombie_Police_Fat",
+				"BP_Zombie_Police_Female",
+				"BP_Zombie_Police_Muscle",
+				"BP_Zombie_SuicideVest",
+				"Puppet"
+			],
+			"SequenceIndex": 5,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination"
+		},
+		{
+			"TrackingCaption": "Report to the banker in C2 Outpost",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_2_Outpost_Bank.C_2_Outpost_Bank:PersistentLevel.BP_QuestBin5_2.Mesh Outline Component",
+					"FallbackTransform": "-150707.156250,290241.937500,69603.734375|0.000000,-54.999989,0.000000|1.051000,1.051000,1.051000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Country/SM_box_03_NOExamine.SM_box_03_NOExamine"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 6,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "Talk to the contact person in Gorica",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_1_Gorica_02.D_1_Gorica_02:PersistentLevel.BP_CB_Police_Station_EXT_ver02_CHILD_02.SM_Round_Table_01_StaticMeshComponent0",
+					"FallbackTransform": "-320879.156250,561390.562500,77498.523438|0.000000,-144.490997,0.000000|1.001000,1.001000,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Beach_Elements/SM_Round_Table_01.SM_Round_Table_01"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 7,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "Where is he? Let's check the woods! (Search the woods North of D1)",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_1_Halloween_Hut/D_1_Halloween_Hut.D_1_Halloween_Hut:PersistentLevel.HW_WoodenLogCabin_BP2.SM_Craftable_Chair_01",
+					"FallbackTransform": "-483558.312500,616494.750000,86708.421875|0.000000,55.494965,0.000000|0.837782,0.837782,0.837782",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Base_Building_Elements/Craftable_Furniture/Chairs/Old_Chairs/SM_Craftable_Chair_01.SM_Craftable_Chair_01"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 8,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "This ain't good! Let's arm up in the closest bunker!",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/TV_Base_D_0.TV_Base_D_0:PersistentLevel.BPLockpick_Weapon_Locker_Military5_GEN_VARIABLE_BPLockpick_Weapon_Locker_Military_C_CAT_133.MainMesh",
+					"FallbackTransform": "-877122.500000,602619.750000,62009.128906|0.000000,0.000338,0.000000|1.001000,1.001000,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Armory/Big_Closet_Closed/SM_Big_Closet_Closed_05.SM_Big_Closet_Closed_05"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 9,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "This place is swarming, Let's thin the horde!",
+			"Amount": 25,
+			"TargetCharacters": [
+				"Puppet"
+			],
+			"AllowedWeapons": [
+				"Weapon_AK15",
+				"Weapon_AK47",
+				"Weapon_AK47_Engraved",
+				"Weapon_AKM",
+				"Weapon_AKS_74U",
+				"Weapon_AS_Val",
+				"Weapon_AT4_HEAT",
+				"Weapon_AWM",
+				"Weapon_AWM_Desert",
+				"Weapon_AWM_Green",
+				"Weapon_AWM_Snake",
+				"Weapon_AWP",
+				"Weapon_AWP_Desert",
+				"Weapon_AWP_Green",
+				"Weapon_AWP_Snake",
+				"Weapon_BayRifferBlock21",
+				"Weapon_Block21",
+				"Compound_Bow",
+				"Compound_Bow_Desert",
+				"Compound_Bow_Digital",
+				"Compound_Bow_Snow",
+				"Compound_Bow_US_Scorpion",
+				"Compound_Bow_Woodland",
+				"Compound_Ripper_Bow_Quest",
+				"Weapon_Deagle_357",
+				"Weapon_DEagle_50",
+				"Weapon_DEagle_50_Premium",
+				"Weapon_DEagle_50Gold",
+				"Weapon_FlareGun",
+				"Weapon_SF19",
+				"Weapon_HS9",
+				"Weapon_Improvised_Flamethrower",
+				"Weapon_ImprovisedGrenadeLauncher",
+				"Weapon_Improvised_Handgun",
+				"Weapon_Improvised_Rifle",
+				"Improvised_Bow",
+				"Improvised_Bow_25",
+				"Improvised_Bow_30",
+				"Improvised_Bow_35",
+				"Weapon_Judge44",
+				"Weapon_98k_Karabiner",
+				"Weapon_Krueger",
+				"Weapon_M1_Garand",
+				"Weapon_M1_Garand_Premium",
+				"Weapon_M16A4",
+				"Weapon_M16A4_Premium",
+				"Weapon_M1887",
+				"Weapon_M1887_Sawed_off",
+				"Weapon_M1887_Premium",
+				"Weapon_MosinNagant",
+				"Weapon_M1911",
+				"Weapon_M1911_Engraved",
+				"Weapon_M1911_Gold",
+				"Weapon_M1911_JayW",
+				"Weapon_M249",
+				"Weapon_M82A1",
+				"Weapon_M82A1_Black",
+				"Weapon_M82A1_Desert",
+				"Weapon_M82A1_Snow",
+				"Weapon_MAC10",
+				"Manchu_Bow_50",
+				"Weapon_MK18",
+				"Weapon_MP5",
+				"Weapon_MP5_K",
+				"Weapon_MP5_SD",
+				"Weapon_PeaceKeeper38",
+				"Penobscot_Bow_40",
+				"Recurve_Bow",
+				"Recurve_Bow_100",
+				"Recurve_Bow_50",
+				"Recurve_Bow_60",
+				"Recurve_Bow_70",
+				"Recurve_Bow_80",
+				"Recurve_Bow_90",
+				"Recurve_Bow_Hunter",
+				"Weapon_RPG7",
+				"Weapon_RPK-74",
+				"Weapon_SCAR_DMR",
+				"Weapon_SCAR_L",
+				"Weapon_SDASS",
+				"Weapon_Serpent357",
+				"Weapon_SKS",
+				"Snake_Skin_Bow",
+				"Weapon_SVD_Dragunov",
+				"Weapon_SVD_Dragunov_Premium",
+				"Takedown_Bow",
+				"Weapon_590A11",
+				"Weapon_M9",
+				"Weapon_M9_Silver",
+				"Weapon_TommyGun",
+				"Weapon_Trench_Gun",
+				"Weapon_UMP45",
+				"Weapon_VHS_BG",
+				"Weapon_VHS2_Rail",
+				"Weapon_VHS2",
+				"Weapon_Viper_M357",
+				"Weapon_VSS_VZ",
+				"Weapon_AT4_HEDP",
+				"Weapon_BlackHawk_Crossbow",
+				"Weapon_BlackHawk_Crossbow_Quest",
+				"Weapon_CarbonBear",
+				"Weapon_CarbonHunter",
+				"Weapon_DT11B",
+				"Weapon_DT11B_Sawed_Off",
+				"Weapon_Hunter85_Ivory",
+				"Weapon_Hunter85_V2",
+				"Weapon_Improvised_Crossbow"
+			],
+			"SequenceIndex": 10,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination"
+		},
+		{
+			"TrackingCaption": "Search for intel on the bandits on the Island",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/C_1_Veliki_Tabor_05.C_1_Veliki_Tabor_05:PersistentLevel.BP_CC_A_INT_01_2.SM_Altar_01_01_StaticMeshComponent0",
+					"FallbackTransform": "-481189.406250,202230.468750,38711.320312|0.000000,162.691757,0.000000|1.251000,1.251000,1.251000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Continental_Church/CC_A/Props/SM_Altar_01.SM_Altar_01"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 11,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "Kill 5 Armed NPC with a ranged weapon",
+			"Amount": 5,
+			"TargetCharacters": [
+				"ArmedNPC"
+			],
+			"AllowedWeapons": [
+				"Weapon_AK15",
+				"Weapon_AK47",
+				"Weapon_AK47_Engraved",
+				"Weapon_AKM",
+				"Weapon_AKS_74U",
+				"Weapon_AS_Val",
+				"Weapon_AT4_HEAT",
+				"Weapon_AWM",
+				"Weapon_AWM_Desert",
+				"Weapon_AWM_Green",
+				"Weapon_AWM_Snake",
+				"Weapon_AWP",
+				"Weapon_AWP_Desert",
+				"Weapon_AWP_Green",
+				"Weapon_AWP_Snake",
+				"Weapon_BayRifferBlock21",
+				"Weapon_Block21",
+				"Compound_Bow",
+				"Compound_Bow_Desert",
+				"Compound_Bow_Digital",
+				"Compound_Bow_Snow",
+				"Compound_Bow_US_Scorpion",
+				"Compound_Bow_Woodland",
+				"Compound_Ripper_Bow_Quest",
+				"Weapon_Deagle_357",
+				"Weapon_DEagle_50",
+				"Weapon_DEagle_50_Premium",
+				"Weapon_DEagle_50Gold",
+				"Weapon_FlareGun",
+				"Weapon_SF19",
+				"Weapon_HS9",
+				"Weapon_Improvised_Flamethrower",
+				"Weapon_ImprovisedGrenadeLauncher",
+				"Weapon_Improvised_Handgun",
+				"Weapon_Improvised_Rifle",
+				"Improvised_Bow",
+				"Improvised_Bow_25",
+				"Improvised_Bow_30",
+				"Improvised_Bow_35",
+				"Weapon_Judge44",
+				"Weapon_98k_Karabiner",
+				"Weapon_Krueger",
+				"Weapon_M1_Garand",
+				"Weapon_M1_Garand_Premium",
+				"Weapon_M16A4",
+				"Weapon_M16A4_Premium",
+				"Weapon_M1887",
+				"Weapon_M1887_Sawed_off",
+				"Weapon_M1887_Premium",
+				"Weapon_MosinNagant",
+				"Weapon_M1911",
+				"Weapon_M1911_Engraved",
+				"Weapon_M1911_Gold",
+				"Weapon_M1911_JayW",
+				"Weapon_M249",
+				"Weapon_M82A1",
+				"Weapon_M82A1_Black",
+				"Weapon_M82A1_Desert",
+				"Weapon_M82A1_Snow",
+				"Weapon_MAC10",
+				"Manchu_Bow_50",
+				"Weapon_MK18",
+				"Weapon_MP5",
+				"Weapon_MP5_K",
+				"Weapon_MP5_SD",
+				"Weapon_PeaceKeeper38",
+				"Penobscot_Bow_40",
+				"Recurve_Bow",
+				"Recurve_Bow_100",
+				"Recurve_Bow_50",
+				"Recurve_Bow_60",
+				"Recurve_Bow_70",
+				"Recurve_Bow_80",
+				"Recurve_Bow_90",
+				"Recurve_Bow_Hunter",
+				"Weapon_RPG7",
+				"Weapon_RPK-74",
+				"Weapon_SCAR_DMR",
+				"Weapon_SCAR_L",
+				"Weapon_SDASS",
+				"Weapon_Serpent357",
+				"Weapon_SKS",
+				"Snake_Skin_Bow",
+				"Weapon_SVD_Dragunov",
+				"Weapon_SVD_Dragunov_Premium",
+				"Takedown_Bow",
+				"Weapon_590A11",
+				"Weapon_M9",
+				"Weapon_M9_Silver",
+				"Weapon_TommyGun",
+				"Weapon_Trench_Gun",
+				"Weapon_UMP45",
+				"Weapon_VHS_BG",
+				"Weapon_VHS2_Rail",
+				"Weapon_VHS2",
+				"Weapon_Viper_M357",
+				"Weapon_VSS_VZ",
+				"Weapon_AT4_HEDP",
+				"Weapon_BlackHawk_Crossbow",
+				"Weapon_BlackHawk_Crossbow_Quest",
+				"Weapon_CarbonBear",
+				"Weapon_CarbonHunter",
+				"Weapon_DT11B",
+				"Weapon_DT11B_Sawed_Off",
+				"Weapon_Hunter85_Ivory",
+				"Weapon_Hunter85_V2",
+				"Weapon_Improvised_Crossbow"
+			],
+			"SequenceIndex": 12,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination"
+		},
+		{
+			"TrackingCaption": "Search the Castle in the snow for evidence of the contact person",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_1_Castle_04_Interior.D_1_Castle_04_Interior:PersistentLevel.BP_Castle_INT_2.InteriorStaticMesh234",
+					"FallbackTransform": "-545932.250000,418032.812500,89357.648438|0.000000,-90.606468,0.000000|0.744566,0.744566,0.744566",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Furniture/Old_Furnitures/Meshes/SM_Hospital_Bed_Mattress.SM_Hospital_Bed_Mattress"
+				},
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_1_Castle_04_Interior.D_1_Castle_04_Interior:PersistentLevel.BP_Castle_INT_2.HierarchicalInstancedStaticMesh118",
+					"FallbackTransform": "-545670.500000,416235.062500,89851.367188|0.000000,-179.837524,0.000000|1.001000,1.001000,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Items/Crafting_Items/Monitor/SM_Monitor01.SM_monitor01",
+					"Instance": 1
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 13,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "Go to the Airfield and gain control of flight data",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_2_Airport_06_Int.B_2_Airport_06_Int:PersistentLevel.BP_Control_Tower_01_RW_INT_0.SM_Vintage_SecurityMonitor2_01 (ISMA)2_InstancedStaticMesh",
+					"FallbackTransform": "-251827.500000,-52353.128906,37322.085938|0.000000,-173.361359,0.000000|0.951000,0.951000,0.951000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/ScienceLab/Meshes/ScientificDevices/ControlPanel_Vintage/SM_Vintage_SecurityMonitor2_01.SM_Vintage_SecurityMonitor2_01",
+					"Instance": 1
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 14,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "They haven't fled the Island yet. They need transport tho, let's check out the scrapyard",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Junkyard_01.B_0_Junkyard_01:PersistentLevel.BP_Junkyard_MainBuilding_01_2.StaticMesh82",
+					"FallbackTransform": "-872716.187500,-202341.375000,20616.001953|0.000000,77.464134,0.000000|1.001000,1.001000,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/70s_Furniture/SM_Whiteboard_Merged_01.SM_Whiteboard_Merged_01"
+				},
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Junkyard_01.B_0_Junkyard_01:PersistentLevel.BP_Junkyard_MainBuilding_01_2.StaticMesh31",
+					"FallbackTransform": "-873779.000000,-202380.093750,20616.001953|0.000000,156.901871,0.000000|1.001000,1.001000,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/Office/Desk/SM_desk.SM_desk"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 15,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "Lets head to the trainyard and check the logs!",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_09a_INT.Z_1_Trainyard_09a_INT:PersistentLevel.BP_Trainyard_Control_Tower2.SM_Vintage_SecurityMonitor1_02 (ISMA)_InstancedStaticMesh",
+					"FallbackTransform": "-367446.750000,-769995.375000,8873.640625|0.000000,-93.544884,0.000000|1.001000,1.001000,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/ScienceLab/Meshes/ScientificDevices/ControlPanel_Vintage/SM_Vintage_SecurityMonitor1_02.SM_Vintage_SecurityMonitor1_02",
+					"Instance": 0
+				},
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_09a_INT.Z_1_Trainyard_09a_INT:PersistentLevel.BP_Trainyard_Control_Tower2.SM_Vintage_SecurityMonitor2_01 (ISMA)_InstancedStaticMesh",
+					"FallbackTransform": "-366929.593750,-769896.875000,8873.640625|0.000000,82.077751,0.000000|1.001015,1.001015,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/ScienceLab/Meshes/ScientificDevices/ControlPanel_Vintage/SM_Vintage_SecurityMonitor2_01.SM_Vintage_SecurityMonitor2_01",
+					"Instance": 0
+				},
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_1_Trainyard_09a_INT.Z_1_Trainyard_09a_INT:PersistentLevel.BP_Trainyard_Control_Tower2.SM_Vintage_SecurityMonitor2_01 (ISMA)_InstancedStaticMesh",
+					"FallbackTransform": "-366897.031250,-769539.062500,8873.640625|0.000000,90.172989,0.000000|1.001001,1.001001,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Indoor/ScienceLab/Meshes/ScientificDevices/ControlPanel_Vintage/SM_Vintage_SecurityMonitor2_01.SM_Vintage_SecurityMonitor2_01",
+					"Instance": 3
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 16,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "Ambush! Take out 30 Armed NPCs",
+			"Amount": 30,
+			"TargetCharacters": [
+				"ArmedNPC"
+			],
+			"SequenceIndex": 17,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination"
+		},
+		{
+			"TrackingCaption": "Go to the harbour before their ship leaves!",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Rogoznica_06_b.Z_3_Rogoznica_06_b:PersistentLevel.SM_Small_Lighthouse5.StaticMeshComponent0",
+					"FallbackTransform": "227657.937500,-685748.812500,146.343750|0.000000,35.000034,0.000000|1.001000,1.001000,1.001000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Pier/Small_Lighthouse/SM_Small_Lighthouse.SM_Small_Lighthouse"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 18,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		},
+		{
+			"TrackingCaption": "They took the contact person! Revenge him!",
+			"Amount": 50,
+			"TargetCharacters": [
+				"ArmedNPC"
+			],
+			"SequenceIndex": 19,
+			"CanBeAutoCompleted": true,
+			"Type": "Elimination"
+		},
+		{
+			"TrackingCaption": "Bring the package back to the banker in Z3",
+			"Locations": [
+				{
+					"AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/Z_3_Outpost_Bank.Z_3_Outpost_Bank:PersistentLevel.BP_QuestBin7_2.Mesh Outline Component",
+					"FallbackTransform": "20623.859375,-676971.062500,253.016708|0.000000,30.000078,0.000000|1.051000,1.051000,1.051000",
+					"VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Country/SM_box_03_NOExamine.SM_box_03_NOExamine"
+				}
+			],
+			"MinNeeded": 1,
+			"MaxNeeded": 1,
+			"SpawnOnlyNeeded": true,
+			"WorldMarkerShowDistance": 100,
+			"SequenceIndex": 20,
+			"CanBeAutoCompleted": true,
+			"Type": "Interaction"
+		}
+	]
+}

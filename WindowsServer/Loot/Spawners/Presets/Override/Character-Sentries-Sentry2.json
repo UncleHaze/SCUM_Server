@@ -1,0 +1,46 @@
+{
+	"Items": [
+		{
+			"Rarity": "VeryRare",
+			"Id": "KeyCard"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "KeyCardApex"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "C4_CircuitBoard"
+		},
+		{
+			"Rarity": "ExtremelyRare",
+			"Id": "Laser_Detonator"
+		}
+	],
+	"FixedItems": [
+		"BCULock_Item",
+		"PortableWorkLight",
+		"PortableWorkLight",
+		"Sentry_Aiming_Kit",
+		"Sentry_50cal_Rifle",
+		"Cal_50BMG",
+		"Cal_50BMG"
+	],
+	"QuantityMin": 1,
+	"QuantityMax": 1,
+	"AllowDuplicates": true,
+	"ShouldFilterItemsByZone": true,
+	"ShouldApplyLocationSpecificProbabilityModifier": true,
+	"ShouldApplyLocationSpecificDamageModifier": true,
+	"InitialDamage": 20,
+	"RandomDamage": 10,
+	"InitialUsage": 0,
+	"RandomUsage": 0,
+	"InitialStack": 0,
+	"RandomStack": 0,
+	"PostSpawnActions": [
+		"KillboxKeycard_Sentry",
+		"SetAmmoAmount_SmallStash",
+		"ApexKeycard_Sentry"
+	]
+}

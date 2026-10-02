@@ -1,0 +1,103 @@
+{
+  "by_npc": {
+    "Armorer": {
+      "Fetch": 86,
+      "Interaction": 0,
+      "Elimination": 25,
+      "Mix": 0,
+      "Tour": 0,
+      "files": 75
+    },
+    "Barber": {
+      "Fetch": 128,
+      "Interaction": 0,
+      "Elimination": 0,
+      "Mix": 0,
+      "Tour": 0,
+      "files": 75
+    },
+    "Bartender": {
+      "Fetch": 79,
+      "Interaction": 0,
+      "Elimination": 30,
+      "Mix": 0,
+      "Tour": 0,
+      "files": 75
+    },
+    "Doctor": {
+      "Fetch": 129,
+      "Interaction": 0,
+      "Elimination": 0,
+      "Mix": 0,
+      "Tour": 0,
+      "files": 75
+    },
+    "Fisherman": {
+      "Fetch": 132,
+      "Interaction": 0,
+      "Elimination": 0,
+      "Mix": 0,
+      "Tour": 0,
+      "files": 75
+    },
+    "GeneralGoods": {
+      "Fetch": 130,
+      "Interaction": 0,
+      "Elimination": 0,
+      "Mix": 0,
+      "Tour": 0,
+      "files": 75
+    },
+    "Banker": {
+      "Fetch": 128,
+      "Interaction": 16,
+      "Elimination": 5,
+      "Mix": 1,
+      "Tour": 0,
+      "files": 76
+    },
+    "Mechanic": {
+      "Fetch": 128,
+      "Interaction": 0,
+      "Elimination": 0,
+      "Mix": 0,
+      "Tour": 0,
+      "files": 75
+    }
+  },
+  "errors": [
+    "T1_HN_SecurePackage.json: elimination on Banker",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: Location[1] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance",
+    "T1_HN_SecurePackage.json: WorldMarkerShowDistance on Interaction (omit; see Example_Interact)",
+    "T1_HN_SecurePackage.json: Location[0] missing Instance"
+  ],
+  "custom_quest_count": 601,
+  "created_this_run": 0
+}

@@ -1,0 +1,19 @@
+; UE4SS mods.txt for scum-allow-mods bundle.
+; Format: <ModName> : <0|1>   (0 = disabled, 1 = enabled)
+; Lines starting with ';' are comments.
+
+; ── The pak-unlock mod (the whole point of this bundle) ──
+scum_allow_mods : 1
+
+; ── UE4SS built-in mods — all DISABLED by default ──
+; This bundle's UE4SS-settings.ini turns all engine hooks off, which is
+; required by these built-ins. Don't enable them unless you know what
+; you're doing and re-enable the matching hooks in UE4SS-settings.ini.
+CheatManagerEnablerMod : 0
+ConsoleCommandsMod     : 0
+ConsoleEnablerMod      : 0
+SplitScreenMod         : 0
+LineTraceMod           : 0
+BPML_GenericFunctions  : 0
+BPModLoaderMod         : 0
+Keybinds               : 0

@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "ArmedNPCBaseCommonData",
+    "Name": "NPCDrifterCommonData_Lvl_4_AbandonedBunker",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArmedNPCBaseCommonData'",
+    "Package": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Drifter/NPCDrifterCommonData_Lvl_4_AbandonedBunker",
+    "Properties": {
+      "MaxHealth": 240.0,
+      "Variations": {
+        "ObjectName": "ArmedNPCVariationsData'ArmedNPCVariationsData_Lvl_5_AbandonedBunker'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Base/ArmedNPCVariationsData_Lvl_5_AbandonedBunker.0"
+      },
+      "PossibleItemInHands": [
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/Ranged_Weapons/Weapon_BlackHawk_Crossbow.Weapon_BlackHawk_Crossbow_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 3.0,
+          "PossibleItemsOnSearch": []
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/Ranged_Weapons/Compound_Bow.Compound_Bow_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 3.0,
+          "PossibleItemsOnSearch": []
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/New_Melee/Sledgehammer.Sledgehammer_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": []
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/New_Melee/1H_Metal_Sword.1H_Metal_Sword_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": []
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/New_Melee/1H_Bushman.1H_Bushman_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": []
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/New_Melee/2H_Metal_Baseball_Bat.2H_Metal_Baseball_Bat_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": []
+        },
+        {
+          "Item": {
+            "AssetPathName": "/Game/ConZ_Files/Items/Weapons/New_Melee/1H_Crowbar.1H_Crowbar_C",
+            "SubPathString": ""
+          },
+          "SpawnWeight": 1.0,
+          "PossibleItemsOnSearch": []
+        }
+      ],
+      "DifficultyLevelSettings": {
+        "ObjectName": "ArmedNPCDifficultyLevelSettings'ArmedNPCDifficultyLevelSettings'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Base/DifficultySettings/ArmedNPCDifficultyLevelSettings.0"
+      },
+      "DamageCustomizationData": {
+        "ObjectName": "ArmedNPCDamageCustomizationData'DefaultArmedNPCDamageCustomizationData'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Base/Damage/DefaultArmedNPCDamageCustomizationData.0"
+      },
+      "ArmedNPCAimCorrectionsData": {
+        "ObjectName": "ArmedNPCAimCorrectionsData'ArmedNPCAimCorrections'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Base/AimCorrections/ArmedNPCAimCorrections.0"
+      },
+      "ExplosionDamageMultiplier": 2.4,
+      "PhysicalSurfacesData": {
+        "ObjectName": "PhysicalSurfacesData'PhysicalSurfacesData'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/Prisoner/Data/PhysicalSurfacesData.0"
+      },
+      "MovementSettingsOverride": {
+        "ObjectName": "ArmedNPCCombatMovementSettingsPerDifficultyLevelData'ArmedNPCCombatMovementSettingsOverride_NPC_Lvl_5'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/NPCs/Armed_NPCs/Base/Movement/Settings/Override/ArmedNPCCombatMovementSettingsOverride_NPC_Lvl_5.0"
+      },
+      "MeleSkillLevel": "ESkillLevel::AboveAdvanced",
+      "BoxingSkillAnimationsPreset": {
+        "ObjectName": "MeleeSkillAnimationsPreset'Boxing'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Skills/MeleeAnimationPresets/Boxing.0"
+      },
+      "MeleeAttackTypes": {
+        "PrimaryMeleeAttackTypeWhenNotMoving": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Primary.NotMoving"
+        },
+        "PrimaryMeleeAttackTypeWhenWalking": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Primary.Walking"
+        },
+        "PrimaryMeleeAttackTypeWhenJogging": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Primary.Jogging"
+        },
+        "PrimaryMeleeAttackTypeWhenRunning": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Primary.Running"
+        },
+        "PrimaryMeleeAttackTypeWhenFalling": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Primary.Falling"
+        },
+        "SecondaryMeleeAttackTypeWhenNotMoving": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Secondary.NotMoving"
+        },
+        "SecondaryMeleeAttackTypeWhenWalking": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Secondary.Walking"
+        },
+        "SecondaryMeleeAttackTypeWhenJogging": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Secondary.Jogging"
+        },
+        "SecondaryMeleeAttackTypeWhenRunning": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Secondary.Running"
+        },
+        "SecondaryMeleeAttackTypeWhenFalling": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Secondary.Falling"
+        },
+        "ComboMeleeAttackTypeWhenNotMoving": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Combo.NotMoving"
+        },
+        "ComboMeleeAttackTypeWhenWalking": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Combo.Walking"
+        },
+        "ComboMeleeAttackTypeWhenJogging": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Combo.Jogging"
+        },
+        "ComboMeleeAttackTypeWhenRunning": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Combo.Running"
+        },
+        "ComboMeleeAttackTypeWhenFalling": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Combo.Falling"
+        },
+        "BashMeleeAttackType": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Bash"
+        },
+        "WeaponBayonetMeleeAttackType": {
+          "TagName": "MeleeAttackType.Prisoner.Standing.Bayonet"
+        }
+      },
+      "MeleeAttackCapsulesAttachmentForItemInRHand": {
+        "TagName": "MeleeAttackCapsule.Attachment.Human.Item_R"
+      },
+      "HitReactTypeWhenStanding": {
+        "TagName": "HitReactType.Prisoner.Standing"
+      },
+      "HitReactTypeWhenStandingInCombatMode": {
+        "TagName": "HitReactType.Prisoner.Standing.CombatMode"
+      },
+      "HitReactTypeWhenCrouching": {
+        "TagName": "HitReactType.Prisoner.Crouching"
+      },
+      "HitReactTypeWhenProne": {
+        "TagName": "HitReactType.Prisoner.Prone"
+      },
+      "AnimationsForEvents[1]": {
+        "ObjectName": "AnimMontage'UC_ImprovisedFlashLight_L2_Kick03_Montage'",
+        "ObjectPath": "SCUM/Content/ConZ_Files/Characters/Prisoner/Animations3/Boxing/Boxing_with_ImprovisedFlashlight/L2/Punches/UC_ImprovisedFlashLight_L2_Kick03_Montage.0"
+      }
+    }
+  }
+]
